@@ -11,3 +11,17 @@ Our categorical dictionaries consist of accounting vocabularies that are specifi
 In addition to the seven categories, our dictionaries also include modifiers that enhance or reverse the sentiment attached to the phrases. The modifiers are further divided into "amplifiers," "negators," "bads," and "goods." Amplifiers enhance the positive or negative meaning of a performance outcome, while negators reverse the sentiment. The "bads" and "goods" categories contain words that are inherently negative or positive, respectively.
 
 These dictionaries, which we refer to as "modifiers" dictionaries, differ from the sentiment vocabulary in the Loughran McDonald dictionary. Our dictionaries capture specific modifiers like "increase" and "decrease," which impact financial indicators, whereas the Loughran McDonald dictionary focuses on sentiment-rich unigrams like "amazing" and "horrible." By including these modifiers and expanding the vocabulary, we provide a more comprehensive toolkit for analyzing financial language.
+
+### Instructions on running our codes
+
+To clone the repository, use the following command:
+
+```bash
+git clone https://github.com/chenhuililucy/Categorical-Financial-Dictionaries.git
+```
+Install the latest version of nltk:
+
+```python
+pip install nltk==3.8.1
+```
+
