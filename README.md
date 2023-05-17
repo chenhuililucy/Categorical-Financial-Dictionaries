@@ -1,4 +1,4 @@
-## Polarity Based Financial Dictionaries
+## Polarity Based Categorical Financial Dictionaries
 
 This repository features the dictionaries as well as a simple script to gather statistics from them, associated with our paper, *Constructing a Polarity Based Dictionary for Financial Language*, authored by Chenhui Lucy Li and Amir Amel-Zadeh
 
