@@ -1,0 +1,325 @@
+item 7.         management's discussion and analysis of financial condition and
+                results of operations.
+
+        the following provides information which management believes is relevant
+to an assessment and understanding of our consolidated results of operations and
+financial condition. the discussion should be read in conjunction with our
+consolidated financial statements and accompanying notes. all references to
+2000, 1999 and 1998 mean the fiscal years ended december 30, 2000, january 1,
+2000 and january 2, 1999, respectively.
+
+results of operations
+
+        in 2000, 1999 and 1998, k-tron reported net income of $5,838,000,
+$6,759,000 and $6,593,000, respectively.
+
+        we are an international company, and we derived approximately 53%, 59%
+and 58% of our 2000, 1999 and 1998 revenues, respectively, from products
+manufactured in, and services performed from, our facilities located outside the
+united states, primarily in europe. accordingly, we are sensitive to changes in
+foreign currency exchange rates ("foreign exchange rates"), which can affect
+both the translation of financial statement items into u.s. dollars and the
+impact of transactions where the revenues and related expenses may initially be
+accounted for in different currencies, such as sales made from our swiss
+manufacturing facilities in currencies other than the swiss franc.
+
+        in the fourth quarter of 1999, we announced that we would integrate our
+soder and hasler operations worldwide to form a unified business serving the
+bulk materials handling markets. we took a fourth quarter 1999 charge of
+$710,000 for this restructuring. implementation of the integration plan started
+in the fourth quarter of 1999 and was completed in october 2000.
+
+                                      -13-
+    14
+
+        the following table sets forth our results of operations expressed as a
+percentage of total revenues for the periods indicated.
+
+as previously noted, more than half of our revenues in recent years have
+been derived from activities in foreign jurisdictions. consequently, our results
+can be significantly affected by changes in foreign exchange rates, particularly
+those between the u.s. dollar and the swiss franc, german mark and euro and, to
+a lesser degree, the british pound sterling, french franc and other currencies.
+when the u.s. dollar strengthens against these currencies, the u.s. dollar value
+of non-u.s. dollar-based sales decreases. when the u.s. dollar weakens against
+these currencies, the u.s. dollar value of non-u.s. dollar-based sales
+increases. correspondingly, the u.s. dollar value of non-u.s. dollar-based costs
+increases when the u.s. dollar weakens and decreases when the u.s. dollar
+strengthens. overall, since we typically receive a majority of our revenues in
+currencies other than the u.s. dollar, we generally benefit from a weaker dollar
+and are adversely affected by a stronger dollar relative to major currencies
+worldwide, especially those identified above. accordingly, changes in foreign
+exchange rates, and in particular a strengthening of the u.s. dollar, may
+adversely affect our total revenues, gross profit and operating income as
+expressed in u.s. dollars.
+
+                                      -14-
+    15
+
+        in addition, our revenues and income with respect to particular
+transactions may be affected by changes in foreign exchange rates where sales
+are made in currencies other than the functional currency of the facility
+manufacturing the product subject to the sale, including in particular the u.s.
+dollar/swiss franc (for inter-company transactions) and the euro/swiss franc and
+german mark/swiss franc (for sales from our swiss manufacturing facilities which
+are made in euros or german marks) exchange rates. for 2000, 1999 and 1998, the
+changes in these and the u.s. dollar/euro and u.s. dollar/german mark exchange
+rates were as follows:
+
+total revenues decreased by $2,975,000 or 3.4% in 2000 compared to 1999.
+north american revenues increased and western european revenues decreased in
+2000 compared to 1999. if the average exchange translation rates for 2000 were
+applied to 1999, revenues would have increased by 3.9% in 2000.
+
+        total revenues decreased by $1,255,000 or 1.4% in 1999 compared to 1998.
+western european revenues increased and north american revenues decreased in
+1999 compared to 1998. if the average foreign exchange translation rates for
+1999 were applied to 1998, revenues would have increased by 1.0% in 1999.
+
+                                      -15-
+    16
+
+        gross profit as a percent of total revenues increased to 44.6% in 2000
+as compared to 44.3% in 1999 but decreased in both 2000 and 1999 as compared to
+45.1% in 1998. these changes in gross margin were primarily due to sales mix.
+
+        selling, general and administrative (sg&a) expense decreased by $833,000
+or 3.1% in 2000 compared to 1999 and by $1,320,000 or 4.8% in 1999 compared to
+1998. the decreases in 2000 and 1999 sg&a were due to the lower foreign exchange
+translation rates of certain foreign currencies into u.s. dollars ("lower
+foreign exchange translation rates") offset in part by the 1999 restructuring
+costs of $710,000 relating to the hasler business. as a percent of total
+revenues, sg&a was 30.2% in 2000, 30.1% in 1999 and 31.2% in 1998.
+
+        research and development (r&d) expenditures in 2000 decreased by
+$171,000 or 5.1% compared to 1999 after increasing by $373,000 or 12.5% in 1999
+compared to 1998. r&d expense when expressed in local currencies increased in
+2000 and 1999 due to greater emphasis on the development of new products. r&d
+expense as a percent of total revenues was 3.7% in 2000, 3.8% in 1999 and 3.3%
+in 1998.
+
+        interest expense increased by $586,000 or 118% in 2000 as compared to
+1999, primarily due to interest on funds borrowed in march 2000 related to the
+repurchase of 508,000 shares of our common stock, which is discussed below in
+the liquidity section, partly offset by the effects of lower foreign exchange
+translation rates. interest expense decreased by $219,000 or 30.7% in 1999 as
+compared to 1998. the 1999 decrease was primarily due to weighted average lower
+debt levels and lower interest rates on some loans. interest expense as a
+percent of total revenues was 1.3% in 2000, 0.6% in 1999 and 0.8% in 1998.
+
+        income before income taxes was $8,008,000 in 2000, $8,644,000 in 1999
+and $8,718,000 in 1998. the changes during the periods were the result of the
+items discussed above.
+
+        the 2000, 1999 and 1998 provisions for income tax of $2,170,000,
+$1,885,000 and $2,125,000, respectively, were related primarily to our results
+in the united states and germany. the effective tax rates were 27.1% for 2000,
+21.8% for 1999 and 24.4% for 1998. the higher effective tax rate in 2000 was due
+to a greater proportion of income in the united states as compared to
+switzerland where we did not provide for any income tax in 2000, 1999 and 1998
+due to net operating loss carryforwards. we have new jersey state and foreign
+tax loss carryforwards that total $4,100,000 and $600,000, respectively, which,
+if realized, would have an estimated future net income benefit of $245,000 and
+$168,000, respectively.
+
+        we do not believe that inflation has had a material impact on the
+results of operations during the last three years.
+
+                                      -16-
+    17
+
+        our backlog increased by 10.3% at the end of 2000 compared to 1999 (at
+constant foreign exchange rates), primarily due to increased orders from
+customers in the united states. the bulk of the year-end 2000 backlog consisted
+of orders that should be ready for delivery in less than 120 days. our backlog
+decreased by 13.4% at the end of 1999 compared to 1998 (at constant foreign
+exchange rates), primarily due to the shipment of a large order in the fourth
+quarter of 1999 that was included in the 1998 year-end backlog.
+
+liquidity and capital resources
+
+        on march 20, 2000, our u.s. manufacturing subsidiary borrowed $7,000,000
+under a term loan facility with a u.s. bank, and we used these funds, together
+with $1,194,000 of available cash and a borrowing of $950,000 on a $5,000,000
+revolving credit facility with the same bank, to repurchase 508,000 shares of
+our common stock. the $7,000,000 term loan is payable in equal monthly
+installments of principal plus accrued interest over a four year period and is
+secured by liens on the same collateral which secures the revolving credit loan
+and also a separate mortgage loan from the same u.s. bank. one-half of the term
+loan bears interest at the fixed rate of 8.23% for the first two years and the
+other half is subject to a variable rate of interest equal to one month libor
+plus 1.85 percent (8.40% at december 30, 2000). at december 30, 2000, there was
+$5,833,000 outstanding under the term loan.
+
+        at december 30, 2000, our swiss subsidiary had 9.0 million swiss francs
+($5.6 million) in short-term lines of credit with swiss banks, with nothing
+borrowed under these lines of credit and with $5.6 million available for future
+borrowings. in addition to the short-term lines of credit, our swiss subsidiary
+had mortgage borrowings of 10.3 million swiss francs ($6.4 million) with
+maturities through 2002. these mortgages carry annual interest rates ranging
+from 3.375% to 4.5%.
+
+        in june 1998, our u.s. manufacturing subsidiary refinanced its 20-year
+mortgage debt with a u.s. bank for $2,700,000 at an annual interest rate of
+7.625%. monthly principal and interest payments are $25,143. every five years
+the lender has the right to review this borrowing and adjust its terms,
+including due dates and interest rates, with the first such right occurring in
+june 2003. at december 30, 2000, the remaining amount owed under this borrowing
+was $2,446,000.
+
+        also in june 1998, our u.s. manufacturing subsidiary entered into a
+two-year secured revolving credit facility with a u.s. bank that provides for a
+maximum borrowing of $5,000,000, subject to certain borrowing limitations based
+upon inventory and accounts receivable levels. during 2000, this credit facility
+was extended one year through july 2002. the annual interest rate as of december
+30, 2000 was 9.5%. at december 30, 2000, there was $865,000 borrowed under this
+facility, and $4,135,000 was available for future borrowings.
+
+                                      -17-
+    18
+
+        our capitalization at the end of 2000, 1999 and 1998 is set forth below:
+
+(dollars in thousands)
+
+total debt increased in 2000 and 1999 by $4,106,000 and $707,000,
+respectively, compared to 1999 and 1998. total debt without the effect of
+foreign currency translation increased in 2000 and 1999 by $3,788,000 and
+$1,961,000, respectively.
+
+        at the end of 2000 and 1999, working capital was $13,770,000 and
+$14,057,000, respectively, and the ratio of current assets to current
+liabilities was 1.67 and 1.65, respectively.
+
+        in 2000, 1999 and 1998, we utilized internally generated funds to meet
+our working capital needs, and in 1999 we also used short-term borrowings.
+
+        net cash provided by operating activities was $7,107,000 in 2000,
+$2,995,000 in 1999 and $7,615,000 in 1998. the increase in operating cash flow
+in 2000 was primarily the result of a reduction in accounts receivable and an
+increase in accounts payable offset by an increase in inventories. the decrease
+in operating cash flow in 1999 was primarily the result of an increase in
+accounts receivable and inventory and a reduction in accounts payable and
+accrued expenses. net income and depreciation and amortization were the
+principal components of cash provided by operating activities.
+
+        the average number of days to convert accounts receivable to cash was 85
+days in 2000 compared to 82 days in 1999 and 70 days in 1998. the average number
+of days to convert inventory into accounts receivable was 88 days in 2000
+compared to 78 days in 1999 and 1998.
+
+                                      -18-
+    19
+
+        net cash used in investing activities was $4,267,000, $2,804,000 and
+$2,835,000 in 2000, 1999 and 1998, respectively. capital expenditures were
+$3,699,000, $2,605,000 and $2,713,000 in 2000, 1999 and 1998, respectively.
+funds used in 2000 to acquire an english company (colormax limited) were
+$491,000.
+
+        cash used in financing activities in 2000, 1999 and 1998 was primarily
+used for the purchase of 520,200 shares of our common stock in 2000, 166,400
+shares in 1999 and 250,000 shares in 1998, as well as for debt reduction in
+1998. in 2000 and 1999, cash was obtained from operations as well as from
+long-term borrowings in 2000 and short-term borrowings in 1999. in 1998, cash
+was primarily obtained from operations. cash and short- term investments
+decreased to $553,000 at the end of 2000 from $3,093,000 a year earlier.
+
+        changes in foreign exchange rates, particularly with respect to the
+swiss franc and german mark, caused a translation decrease in shareholders'
+equity of $601,000 in 2000 and $1,754,000 in 1999 following an increase of
+$574,000 in 1998.
+
+european monetary union - euro
+
+        on january 1, 1999, the member countries of the european union, which
+does not include switzerland, established fixed conversion rates between their
+existing sovereign currencies, and adopted the euro as their new common legal
+currency. as of that date, the euro began trading on currency exchanges, but the
+legacy currencies will remain legal tender in the participating countries for a
+transition period between january 1, 1999 and january 1, 2002.
+
+        during the transition period, non-cash payments can be made in euros,
+and parties can elect to pay for goods and services and transact business using
+either the euro or a legacy currency. between january 1, 2002 and july 1, 2002,
+the participating countries will introduce euro notes and coins and withdraw all
+legacy currencies so that they will no longer be available.
+
+        we have not encountered significant difficulties with the adoption of
+the euro. since our sales in europe have been from two manufacturing plants (now
+one) located in switzerland, and since some sales are made in swiss francs and
+others in local currencies, the relationship of the euro to the swiss franc is
+important to us, just as the relationship of the swiss franc and german mark has
+been important in the past.
+
+        the euro conversion may affect cross border competition by creating
+cross border price transparency. we regularly assess our pricing and marketing
+strategies in order to ensure that they remain competitive in the european
+market. we have an information technology system in europe which allows for
+transactions to take place in both the legacy currencies and the euro and also
+for the eventual elimination of the legacy currencies. based on current
+information and our current assessment, we do not believe that the euro
+conversion has had or will have a material adverse affect on our business,
+results of operations, cash flows or financial condition.
+
+                                      -19-
+    20
+
+forward-looking statements and risk factors
+
+        the private securities litigation reform act of 1995 (the "act")
+provides a safe harbor for forward-looking statements made by us or on our
+behalf. we and our representatives may from time to time make written or oral
+statements that are "forward-looking," including statements contained in this
+report and other filings with the securities and exchange commission, reports to
+our shareholders and news releases. all statements that express expectations,
+estimates, forecasts and projections are forward-looking statements within the
+meaning of the act. in addition, other written or oral statements which
+constitute forward- looking statements may be made by us or on our behalf. words
+such as "expects," "anticipates," "intends," "plans," "believes," "seeks,"
+"estimates," "projects," "forecasts," "may," "should," variations of such words
+and similar expressions are intended to identify such forward-looking
+statements. these statements are not guarantees of future performance and
+involve certain risks, uncertainties and assumptions which are difficult to
+predict. therefore, actual outcomes and results may differ materially from what
+is expressed or forecasted in or suggested by such forward-looking statements.
+the forward-looking statements contained in this report include statements
+regarding our ability to find alternative suppliers for certain components, the
+effect of the expiration of our patents on our business, the expected time for
+shipments of our products to customers and the resulting effect on our backlog,
+the sufficiency of our facilities, the effect of changes in foreign exchange
+rates on our business and the effect of the euro conversion on cross border
+competition and on our business. we undertake no obligation to update publicly
+any forward-looking statements, whether as a result of new information, future
+events or otherwise.
+
+        a wide range of factors could materially affect our future performance
+and financial and competitive position, including the following: (i) increasing
+price and product/service competition by domestic and foreign competitors,
+including new entrants; (ii) the mix of products/services sold by us; (iii)
+rapid technological changes and developments and our ability to continue to
+introduce competitive new products on a timely and cost-effective basis; (iv)
+changes in u.s. and global financial and currency markets, including significant
+interest rate and foreign currency exchange rate fluctuations; (v) protection
+and validity of patent and other intellectual property rights held by us and our
+competitors; (vi) the cyclical nature of our business as a capital goods
+supplier; (vii) possible future litigation and governmental proceedings; (viii)
+the availability of financing and financial resources in the amounts, at the
+times and on the terms required to support our future business, including
+capacity expansions and possible acquisitions; (ix) the loss of key customers,
+employees or suppliers; (x) the failure to carry out marketing and sales plans;
+(xi) the failure to integrate acquired businesses without substantial costs,
+delays or other operational or financial problems; (xii) economic, business and
+regulatory conditions and changes which may affect the level of new investments
+and purchases made by customers, including general economic and business
+conditions that are less favorable than expected; and (xiii) domestic and
+international political and economic conditions.
+
+        this list of factors that may affect our future performance and
+financial and competitive position and also the accuracy of forward-looking
+statements is illustrative, but it is by no means exhaustive. accordingly, all
+forward-looking statements should be evaluated with the understanding of their
+inherent uncertainty.
+
+                                      -20-
+    21

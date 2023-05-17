@@ -27,15 +27,16 @@ topic = "investing"
 # =====================       YOUR INPUT FILES          =================== #
 
 # The corpus is the main folder that contains all your text files
-corpus = "*.txt"
+corpus = "example_input/*.txt"
 
-negator = "/modifiers_dictionaries/negatorfinal.csv"
-amplifier = "/modifiers_dictionaries/amplifiedfinal.csv"
-bad = "/modifiers_dictionaries/bad.csv"
-good = "/modifiers_dictionaries/good.csv"
+negator = "modifiers_dictionaries/negatorfinal.csv"
+amplifier = "modifiers_dictionaries/amplifiedfinal.csv"
+bad = "modifiers_dictionaries/bad.csv"
+good = "modifiers_dictionaries/good.csv"
 
 negative = f'categorical_dictionaries/{topic}-neg.csv'
 positive = f'categorical_dictionaries/{topic}-pos.csv'
+
 
 # =====================       YOUR OUTPUT FILES          =================== #
 
@@ -58,8 +59,8 @@ LMpositive = set()
 LMnegative = set()
 
 # internal and external dictionaries
-internaldict = defaultdict(list)
-externaldict = defaultdict(list)
+#internaldict = defaultdict(list)
+#externaldict = defaultdict(list)
 
 logger = logging
 
@@ -120,18 +121,20 @@ def read_dictinonaries():
             negator1 = row[0].lower()
             negatorset.add(negator1)
 
-    with open("LMpositive.csv", "r") as posfile:
+    with open("modifiers_dictionaries/LMpositive.csv", "r") as posfile:
         poswords = csv.reader(posfile)
         for row in poswords:
             singleposperword = row[0].lower()
             LMpositive.add(singleposperword)
 
-    with open("LMnegative.csv", "r") as negfile:
+    with open("modifiers_dictionaries/LMnegative.csv", "r") as negfile:
         negwords = csv.reader(negfile)
         for row in negwords:
             singlenegperfword = row[0].lower()
             LMnegative.add(singlenegperfword)
 
+
+    """
     with open("internallemma.csv", "r", errors="ignore") as internalfile:
         w1 = []
         w2 = []
@@ -181,6 +184,7 @@ def read_dictinonaries():
             if not isinstance(externaldict[a], str):
                 externaldict[a].append(b)
 
+    """
 
 # =========================================================================== #
 

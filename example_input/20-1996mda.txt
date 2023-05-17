@@ -1,0 +1,377 @@
+item 7.  management's discussion and analysis of financial condition and
+         results of operations.
+
+overview
+
+         in 1995, the company reported a pre-tax loss of $10,444,000.  the
+principal components of this loss were a second quarter loss of $10,529,000
+recorded in connection with the sale of colortronic gmbh ("colortronic"), a
+german subsidiary, and related patent and patent applications and third and
+fourth quarter losses totaling $749,000 resulting from the sale of the
+company's brazilian and hasler france businesses.  on a pro forma basis,
+assuming that these transactions, and the discontinuance of the company's other
+colortronic brand business, had occurred at the beginning of the 1995 fiscal
+year, the company had 1995 pre-tax income of $2,717,000 and net income of
+$1,408,000.
+
+         as reported in item 7 of the company's annual report on form 10-k for
+the fiscal year ended december 31, 1994, and in subsequent form 10-q filings,
+the company and its u.s. manufacturing subsidiary are in default under several
+financial covenants contained in their loan agreement with three u.s. banks.
+these defaults are continuing and have not been waived.  on april 28, 1995, the
+company and its several u.s. subsidiaries entered into a forbearance agreement
+with the u.s. banks in which such banks agreed to forbear for a period of time
+in the exercise of their rights and remedies under the loan documents.  on june
+22, 1995, this forbearance agreement was amended and extended through the
+earlier of february 28, 1996 or the occurrence of a new event of default
+thereunder.  the forbearance agreement also modified the loan documents in
+certain respects, including the granting of additional collateral.  on february
+28, 1996, this forbearance agreement was further amended and extended until
+january 31, 1997.  certain terms of the current u.s. bank forbearance agreement
+are described in more detail below under "liquidity and capital resources."  at
+february 29, 1996, the principal amount outstanding under the company's u.s.
+loan agreement was $7,680,000.
+
+         on june 23, 1995, subsidiaries of k-tron sold colortronic and rights
+to several related patents and patent applications to an investment group for
+$9,000,000.  as noted above, this divestiture generated a pre-tax loss of
+$10,529,000, representing primarily a non-cash write-off of goodwill.  as a
+result of the sale of colortronic, k-tron's bank debt decreased by $24,200,000
+as of july 1, 1995.
+
+-12-
+    13
+         the loss on the sale of colortronic caused the equity of k-tron's
+principal swiss subsidiary to fall below certain equity guarantees contained in
+its loan agreements with several swiss lenders, resulting in a default under
+those loan agreements.  in early 1996, an agreement was entered into among the
+company's swiss subsidiary, several other k-tron companies and the lenders to
+the swiss subsidiary under which such lenders have agreed to defer until march
+31, 1997 the repayment of credit lines and the principal payments on fixed
+loans that become due prior to that date.  certain other terms of that
+agreement are described in more detail below under "liquidity and capital
+resources."  at february 29, 1996, the principal amount outstanding under the
+swiss loan agreements was $27,364,000.
+
+         the company is seeking alternative debt or equity financing and has
+received written proposals from other financial institutions to replace its
+u.s. bank debt.  due diligence has begun with two prospective new lenders, but
+there can be no assurance that this will result in new u.s. borrowing
+arrangements.  the company is also exploring ways to reduce its bank
+indebtedness in switzerland.
+
+         the company's results have improved significantly since the sale of
+colortronic, and it reported net income of $375,000 and $561,000 for the third
+and fourth quarters of 1995, respectively.  cash flow from operations has also
+improved, enabling the company to reduce bank debt in the second half of 1995
+by $5,368,000.
+
+         while the company has no borrowing availability under its u.s. loan
+agreement and only very modest availability under certain of its swiss loan
+agreements, management believes that cash flow will be sufficient in 1996 to
+sustain the business and further that the company and its subsidiaries will be
+able to comply with all of the covenants and payment provisions contained in
+the both the u.s. and swiss forbearance agreements.  management further
+believes that through the successful completion of new financings in 1996 and
+operating performance, the company will be able to either refinance or extend
+the maturities of the two forbearance agreements before they expire in 1997,
+but there can be no assurance that this will happen.
+
+         k-tron is an international company with more than 70 percent of its
+business arising from sources outside the united states, primarily in europe.
+as such, the financial position and performance of the company is sensitive to
+both translation and transaction fluctuations in foreign exchange rates.
+
+results of operations
+
+         the following table sets forth the company's results of operations
+expressed as a percentage of total revenues for the periods indicated.  the
+1995 pro forma results illustrate the estimated effects on operations of the
+disposition of the colortronic, brazilian and hasler
+
+-13-
+    14
+france businesses noted above, and the discontinuance of the company's other
+colortronic brand businesses, as if the dispositions and discontinuance
+(previously defined as "discontinued businesses") were consummated as of the
+beginning of the 1995 fiscal year:
+
+translation of the company's foreign revenues and earnings into u.s.
+dollars is affected by changes in foreign exchange rates, particularly with
+respect to the swiss franc and the deutsche mark.  revenues and earnings in
+1995 were affected by changes in the average u.s. dollar/swiss franc exchange
+rate, which increased 16% to $.848 per swiss franc in 1995 from $.730 in 1994
+after an 8% increase from $.676 in 1993, and by a change in the u.s.
+dollar/deutsche mark exchange rate, which increased 14% to $.699 per deutsche
+mark in 1995 from $.615 in 1994 after a 2% increase from $.604 in 1993.
+
+-14-
+    15
+         total revenues increased by $5,600,000 or 5.4% (while decreasing by
+4.6% when using a constant foreign exchange rate) in 1995 as compared to 1994.
+total revenues increased in 1995 compared to 1994 due to the strong european
+and united states backlog at the end of 1994, continued strong 1995 order
+in-flow and the effect of a weaker u.s. dollar relative to the swiss franc and
+deutsche mark, offset in part by the effect on revenues in the second half of
+1995 of the june 1995 sale of colortronic.  total revenues in 1995 and 1994
+without the discontinued businesses would have been $89,600,000 and
+$69,500,000, respectively, an increase of $20,100,000 or 28.9% (a $13,000,000
+increase or 16.9% when using a constant foreign exchange rate).
+
+         total revenues decreased $3,200,000 or 3% (8% when using a constant
+foreign exchange rate) in 1994 as compared to 1993.  total revenues decreased
+in 1994 compared to 1993 primarily due to the continuing effects of the
+european recession, which lasted until 1994, offset in part by the decline in
+the u.s. dollar which increased the translation of foreign revenues.
+
+         gross margin as a percent of revenues improved to 38.7% (41.1% after
+excluding the discontinued businesses) in 1995 as compared to 35.9% in 1994 and
+38.1% in 1993.  the improvement in gross margin in 1995 was due to volume and
+price increases and cost reductions in the united states as well as the sale
+and discontinuance of the colortronic business which had low margins, offset in
+part by an increase in warranty costs and the inability to pass on increased
+costs caused by the appreciation of the swiss franc to customers in certain
+european countries.  in addition, the 1995 margins were negatively affected by
+heavily discounted orders booked in 1994 but not shipped until 1995.  the
+decline in 1994 was primarily attributable to the significant fourth quarter
+loss which was due to strong competitive pressure which reduced selling prices,
+higher-than-forecasted production and materials costs and the delayed
+introduction of several important new products.  in addition, increased
+material costs due to the appreciation of the swiss franc versus other european
+currencies also substantially lowered the profit margins of products
+manufactured in switzerland to fill orders sold in other currencies.  partially
+offsetting the impact of these items was the effect of actions taken in 1993 to
+reduce annual fixed costs by more than 15%, including reducing the european
+work force by more than 13%, divesting the company's spanish subsidiary and
+consolidating or combining operations in france, germany, switzerland,
+singapore and the united states.
+
+         selling, general and administrative (sg&a) expense decreased by
+$300,000 or 0.1% in 1995 as compared to 1994 after a $1,100,000 or 3% increase
+in 1994 as compared to 1993.  the marginal reduction in sg&a expenditures was
+due to the business dispositions that took place in 1995, offset in part by
+higher foreign exchange translation rates, higher commissions and selling
+expenses related to the increased sales volume and costs incurred  related to
+the u.s. and swiss forbearance agreements.  as a percent of sales, sg&a was
+31.4% in 1995 (32.1% after excluding the discontinued businesses)  compared to
+33.3% in 1994 and 31.3% in 1993.  the 1994 increase over 1993 was primarily due
+to higher than anticipated commission expense in the united states.
+
+-15-
+    16
+         research and development (r&d) expenditures in 1995 decreased
+$1,300,000 or 29% from 1994 levels due to the elimination of colortronic
+expenses in the second half of 1995, offset in part by using for other purposes
+certain resources previously allocated to colortronic and higher foreign
+exchange translation rates.  r&d expenditures in 1994 decreased $500,000 from
+1993 levels due to synergies realized from the integration of the company's r&d
+efforts, offset in part by the higher foreign exchange translation rate.  r&d
+expense as a percent of revenues was 2.8% in 1995 (2.8% excluding colortronic
+for 1995), 4.2% in 1994 and 4.6% in 1993.
+
+         the loss on the disposition of businesses includes a pre-tax loss of
+$10,529,000 from the june 1995 sale of colortronic and rights to several
+related patents and patent applications, as well as a pre-tax loss of $749,000
+from the fourth quarter sale of the company's brazilian and hasler france
+operations.  the $852,000 loss incurred in 1994 related to reserves established
+in connection with the anticipated sales of the brazilian and hasler france
+operations.  the 1994 losses were previously included in sg&a.
+
+         interest expense in 1995 decreased by $300,000 from 1994 due to lower
+debt levels following the sale of colortronic offset in part by increased
+interest rates in the united states and higher foreign exchange translation
+rates.  interest expense increased in 1994 as compared to 1993 primarily due to
+increased european borrowings and higher interest rates in the united states
+offset in part by reduced interest rates in europe.  interest expense as a
+percent of sales was 3.7% in 1995 (3.2% after excluding the discontinued
+businesses), 4.3% in 1994 and 3.9% in 1993.
+
+         the loss before income taxes and accounting changes was $10,444,000,
+$7,052,000 and $1,784,000 in 1995, 1994 and 1993, respectively.  the increased
+losses during the periods was the result of the items discussed above.
+
+         the company's 1995 net income tax benefit was comprised of a fourth
+quarter $400,000 provision on u.s. operations and a $1,550,000 benefit
+recognized on european losses.  the company's income tax benefit in 1994 was
+primarily due to the results of the united states operations as no tax benefit
+was recognized for the european losses, since realization was not assured.  the
+company has available new jersey state and foreign tax loss carry forwards that
+total $5,400,000 and $20,800,000, respectively, which have estimated future
+benefits of $300,000 and $5,200,000, respectively.
+
+         the company was required to adopt statement of financial accounting
+standards (sfas) no. 109 "accounting for income taxes," which was effective
+january 3, 1993 and was recorded in the three months ended april 3, 1993.  the
+cumulative effect of this adoption was to increase 1993 income by $350,000
+($0.11 per share).  (see note 2 summary of significant accounting policies --
+income taxes, to the accompanying consolidated financial statements.)
+
+-16-
+    17
+         effective for the fiscal year beginning january 3, 1993, the company
+also modified its method of accounting for certain costs of inventory by its
+european subsidiaries by capitalizing certain inventory procurement and other
+indirect production costs.  the cumulative effect of this change increased
+income by $504,000 ($0.16 per share) but also increased 1993 cost of sales
+which resulted in a reduction in income of $113,000 ($.04 per share).  this
+change, which was reflected in adjusted 1993 first quarter results, was made so
+that the company would have a uniform method of accounting for material
+handling costs in valuing its inventory for all of its operations which would
+result in a better matching of costs with related revenues.  (see note 2
+summary of significant accounting policies -- inventory, to the accompanying
+consolidated financial statements.)
+
+         the company does not believe that inflation has had a material impact
+on the results of operations during the last three years.
+
+         the company's backlog (excluding the discontinued businesses and at a
+constant foreign exchange rate) increased in 1995 primarily due to strong
+bookings in the united states.  the backlog increased in 1994 primarily due to
+the beginning of the european economic recovery and strong bookings in the
+united states.
+
+liquidity and capital resources
+
+         in the fourth quarter of 1994, the company reported a net loss of
+$6,261,000.  as a result of this loss, at december 31, 1994 the company was in
+default under several financial covenants contained in its u.s. loan agreement
+with three banks.  as noted earlier under "overview," these defaults are
+continuing and have not been waived; however, the company and its u.s.
+subsidiaries are parties to a forbearance agreement with the u.s. banks which
+continues until january 31, 1997, subject to certain financial covenants,
+restrictions on intercompany transactions with k-tron's foreign subsidiaries
+and an obligation to pursue a refinancing of the u.s. bank debt, including a
+requirement, which has been satisfied, that on or before march 15, 1996, the
+company shall enter into an agreement with a financial institution pursuant to
+which such entity shall commence due diligence to determine whether to issue a
+commitment for a refinancing of the u.s. bank debt.  the u.s. forbearance
+agreement calls for monthly payments of principal, as follows:  $100,000 in
+each of march, april, may, june and july 1996; $225,000 in each of august,
+september and october 1996; and $275,000 in each of november and december 1996
+and january 1997.  the balance of the u.s. bank debt is due on january 31,
+1997.  in addition, if the company and its u.s. subsidiaries have cash flow
+during this period which constitutes excess cash flow as defined in the
+forbearance agreement, then the u.s. banks are also entitled to receive a
+substantial portion of this excess cash flow.  interest is payable monthly at
+prime plus 1.5% through february 29, 1996; prime plus 1.75% from march 1
+through june 14, 1996; prime plus 2.5% from june 15 through july 14, 1996;
+prime plus 3% from july 15 through october 14, 1996; and prime plus 3.5% from
+october 15, 1996 through january 31, 1997.  at february 29, 1996, the principal
+amount outstanding under the company's u.s. loan agreement was $7,680,000.
+
+-17-
+    18
+         as a result of the second quarter loss of $10,529,000 recorded in
+connection with the sale of colortronic and certain related assets, the equity
+of the company's principal swiss subsidiary fell below certain equity
+guarantees contained in its loan agreements with several swiss lenders,
+resulting in a default under those loan agreements.  in early 1996, a
+forbearance agreement was entered into among the company's swiss subsidiary,
+several other k-tron companies and the lenders to the swiss subsidiary under
+which such lenders have agreed to defer until march 31, 1997 the repayment of
+credit lines and the principal payments on fixed loans that become due prior to
+that date.  as part of that agreement, the board of directors of the swiss
+subsidiary was expanded from one director to three directors, with one of the
+directors being designated by the swiss lenders.  in addition, the swiss
+lenders have imposed a number of limitations and requirements on the swiss
+subsidiary, including certain restrictions on intercompany transactions with
+k-tron's u.s. companies and a prohibition on the payment of management fees to
+the company after march 1, 1996.  while the company expects to be able to
+operate within the constraints of this forbearance agreement, under certain
+circumstances they might make it more difficult for the company to operate in a
+unified manner throughout the world.  at february 29, 1996, the principal
+amount outstanding under the swiss loan agreements was $27,364,000.
+
+         the company is seeking alternative debt or equity financing and has
+received written proposals from other financial institutions to replace its
+u.s. bank debt.  due diligence has begun with two prospective new lenders, but
+there can be no assurance that this will result in new u.s. borrowing
+arrangements.  the company is also exploring ways to reduce its bank
+indebtedness in switzerland.
+
+         while the company has no borrowing availability under its u.s. loan
+agreement and only very modest availability under certain of its swiss loan
+agreements, management believes that cash flow will be sufficient in 1996 to
+sustain the business and further that the company and its subsidiaries will be
+able to comply with all of the covenants and payment provisions contained in
+the both the u.s. and swiss forbearance agreements.  management further
+believes that through the successful completion of new financings in 1996 and
+operating performance, the company will be able to refinance or extend the
+maturities of the two forbearance agreements before they expire in 1997, but
+there can be no assurance that this will happen.
+
+-18-
+    19
+         the company's capitalization as of the end of fiscal years 1995, 1994
+and 1993 is set forth below:
+
+total debt decreased in 1995 by $22,788,000, of which $22,928,000
+(from the beginning of the year) was due to the sale of colortronic and
+$4,359,000 was from cash provided by operations, offset by a $4,499,000
+increase due to the effect of foreign exchange translation.  total debt without
+the effect of the foreign exchange translation decreased by $27,287,000.  total
+debt increased in 1994 by $6,789,000, of which $5,016,000 was due to the effect
+of foreign exchange translation.  total debt without the effect of the foreign
+exchange translation increased in 1994 by $1,773,000.  the increase, primarily
+in europe, supported 1994 working capital needs.
+
+         the decrease in short-term debt of $30,379,000 in 1995 is primarily
+due to the reclassification of the u.s. and swiss bank debt to long-term as a
+result of the maturity in the first quarter of 1997 of the debt in accordance
+with the forbearance agreements discussed above.
+
+         at the end of 1995 and 1994, working capital was $23,114,000 and
+($549,000), respectively, and the ratio of current assets to current
+liabilities was 2.05 and .99, respectively.  working capital increased in 1995
+primarily due to the reclassification of short-term debt to long-term debt as
+discussed above.
+
+         in 1995, the company utilized internally generated funds to meet its
+working capital needs.  in 1994, the company met its working capital needs by
+utilizing short and long-term borrowings as well as by increasing the aging of
+accounts payable.
+
+-19-
+    20
+         net cash provided by operating activities was $6,111,000 in 1995,
+$82,000 in 1994, and $3,501,000 in 1993.  the increase in operating cash flow
+was primarily the result of operating profits generated in the second half of
+1995 and reduction of accounts receivable and inventory levels, offset in part
+by a reduction in accounts payable and accrued expenses.  the significant loss
+in 1995 was offset by the noncash loss on the sale of the discontinued
+businesses.
+
+         excluding the effect of foreign currency translation and the
+disposition of businesses, receivables and inventory provided cash of
+$3,155,000 while payables and accrued expenses decreased $2,121,000 during
+1995.  improved asset management enabled the company to reduce accounts
+receivable and inventory thereby allowing it to reduce accounts payable and
+accrued expenses.
+
+         the average number of days to convert accounts receivable to cash was
+84 days in 1995 compared to 95 days in each of 1994 and 1993.  the average
+number of days to convert inventory into accounts receivable was 126 days in
+each of 1995 and 1994 and 122 days in 1993.
+
+         net cash provided by (used in) investing activities was $8,943,000,
+($2,578,000) and ($1,814,000) in 1995, 1994 and 1993, respectively.  the 1995
+proceeds from the sale of colortronic (and related patents and patent
+applications) and the brazilian and hasler france businesses were $9,000,000
+and $320,000, respectively.  capital expenditures were $370,000, $2,467,000 and
+$3,062,000 in 1995, 1994 and 1993, respectively.  the company has no
+outstanding material commitments for capital improvements, but does expect to
+make normal capital expenditures to maintain and enhance its operations.
+proceeds from the sale of property were $1,329,000 in 1993.
+
+         cash used in financing activities in 1995, which was primarily used
+for the reductions of debt, was obtained from the proceeds from the disposition
+of businesses discussed above as well as from the strong cash flow provided by
+operations.  cash provided by or used in financing activities in 1994 and 1993
+was primarily the result of changes required to support working capital needs.
+cash and short-term investments increased to $3,239,000 at the end of fiscal
+1995 from $1,086,000 a year earlier.
+
+         changes in foreign exchange rates, particularly with respect to the
+swiss franc and deutsche mark, caused translation adjustment increases in
+shareholders' equity of $78,000 in 1995 and $377,000 in 1994, following a
+decrease of $872,000 in 1993.

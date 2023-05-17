@@ -1,0 +1,568 @@
+item 7.      management's discussion and analysis of financial condition and
+             results of operations.
+
+         the following provides information that management believes is relevant
+to an assessment and understanding of our consolidated results of operations and
+financial condition. the discussion should be read in conjunction with our
+consolidated financial statements and accompanying notes. all references to
+2002, 2001 and 2000 mean the fiscal years ended december 28, 2002, december 29,
+2001 and december 30, 2000, respectively.
+
+recent developments
+
+         on january 2, 2003, we acquired all of the outstanding capital stock of
+privately-held pennsylvania crusher corporation ("penn crusher"). as a result of
+this purchase, we also acquired jeffrey specialty equipment corporation
+("jeffrey"), a wholly-owned subsidiary of penn crusher. the purchase price
+consisted of a combination of $19,500,000 in cash, $4,000,000 in unsecured
+promissory notes and a post-closing cash payment of $205,000 based on penn
+crusher's consolidated shareholders' equity at december 31, 2002. with respect
+to the payment of the cash portion of the purchase price and related acquisition
+costs, we financed $15,000,000 through a $17,000,000 secured credit facility
+with penn crusher as the borrower (the additional $2,000,000 is available for
+working capital and general corporate purposes, subject to certain limitations).
+this facility is directly with penn crusher, and the lender has no recourse
+against k-tron with respect to any amounts borrowed thereunder. additionally, we
+borrowed $5,000,000 from a u.s. bank through a k-tron wholly-owned subsidiary
+and used these funds to pay part of the purchase price. this obligation was
+guaranteed by k-tron, and k-tron also issued the $4,000,000 of unsecured
+promissory notes.
+
+         penn crusher and jeffrey had consolidated 2002 revenues of $35,178,000,
+which were more than fifty percent of k-tron's total revenues in 2002. with
+regard to the operation of penn crusher and jeffrey, we expect that they will be
+operated on a stand-alone basis, with no significant financial or operational
+synergies between them and k-tron.
+
+         as noted above, k-tron and penn crusher incurred substantial debt as a
+result of the penn crusher acquisition, which debt is described in more detail
+in the liquidity and capital resources section below; however, k-tron and penn
+crusher expect to have sufficient cash flow to cover all required principal and
+interest payments and, in particular, penn crusher's cash flow should be
+adequate to cover required principal and interest payments on its secured credit
+facility.
+
+results of operations
+
+         in 2002, 2001 and 2000, k-tron reported net income of $3,284,000,
+$1,048,000 and $5,838,000, respectively.
+
+         revenues for 2002 declined from 2001 and 2000 levels (even after
+excluding the july 31, 2001 sale of our hasler heavy feeder business, which is
+described below, and the november 30, 2001 acquisition of pneumatic conveying
+systems limited ("pcs")), reflecting a weaker global economy and a steep decline
+in capital equipment spending in the process industries we serve.
+
+                                      -14-
+
+the improvement in net income in 2002 versus 2001 was largely the
+result of two factors: (i) the sale of our hasler heavy feeder business in the
+third quarter of 2001 and (ii) the benefits of a lower cost structure resulting
+from the globalization and cost reduction initiatives that we implemented in the
+second half of 2001.
+
+         we are an international company, and we derived approximately 58%, 58%
+and 53% of our 2002, 2001 and 2000 revenues, respectively, from products
+manufactured in, and services performed from, our facilities located outside the
+united states, primarily in europe. since we operate globally, we are sensitive
+to changes in foreign currency exchange rates ("foreign exchange rates"), which
+can affect both the translation of financial statement items into u.s. dollars
+as well as transactions where the revenues and related expenses may initially be
+accounted for in different currencies, such as sales made from our swiss
+manufacturing facility in currencies other than the swiss franc.
+
+         on july 31, 2001, we sold our hasler heavy feeder business to our
+largest distributor of hasler equipment and recorded a pretax loss of $620,000.
+the assets sold were primarily inventory and fixed assets. the buyer took over
+operation of our hasler leased sales office in neuchatel, switzerland and leased
+from us a company-owned facility in lengerich, germany. the purchase price
+consisted of a combination of 1,000,000 swiss francs cash ($594,000), promissory
+notes in the principal amount of 3,017,000 swiss francs ($1,792,000), which bear
+interest and amortize over seven years, and a less than 20% equity position in
+the buyer. we retained all of the hasler receivables and payables at the time of
+the sale as well as the building in lengerich, germany, which, as noted above,
+is being leased to the buyer. the buyer has made all required payments on the
+promissory notes, and the principal amount was reduced to 2,640,000 swiss francs
+at the end of 2002 ($1,900,000). the u.s. dollar numbers mentioned in this
+paragraph reflect the swiss franc/u.s. dollar exchange rate at the dates
+referred to, which were july 31, 2001 and december 28, 2002.
+
+         in december 2001, we sold our swiss machine and welding shops to an
+independent swiss machine shop company and recorded a pretax gain of $242,000.
+the purchase price consisted of a combination of 300,000 swiss francs cash
+($182,000) and a 700,000 swiss franc obligation ($420,000), which is supported
+by a bank guaranty.
+
+                                      -15-
+
+the following table sets forth our results of operations expressed as a
+percentage of total revenues for the periods indicated.
+
+as previously noted, more than half of our revenues in recent years has
+been derived from activities in foreign jurisdictions. consequently, our results
+can be significantly affected by changes in foreign exchange rates, particularly
+in u.s. dollar exchange rates with respect to the swiss franc, euro and british
+pound sterling and, to a lesser degree, the singapore dollar and other
+currencies. when the u.s. dollar strengthens against these currencies, the u.s.
+dollar value of non-u.s. dollar-based sales decreases. when the u.s. dollar
+weakens against these currencies, the u.s. dollar value of non-u.s. dollar-based
+sales increases. correspondingly, the u.s. dollar value of non-u.s. dollar-based
+costs increases when the u.s. dollar weakens and decreases when the u.s. dollar
+strengthens. overall, since we typically receive a majority of our revenues in
+currencies other than the u.s. dollar, we generally benefit from a weaker dollar
+and are adversely affected by a stronger dollar relative to major currencies
+worldwide, especially those identified above. in particular, a general weakening
+of the u.s. dollar against other currencies would positively affect our
+revenues, gross profit and operating income as expressed in u.s. dollars
+(provided that the gross profit and operating income numbers from foreign
+operations are not losses, since in the case of a loss, the effect would be to
+increase the loss), whereas a general strengthening of the u.s. dollar against
+such currencies would have the opposite effect.
+
+                                      -16-
+
+in addition, our revenues and income with respect to particular
+transactions may be affected by changes in foreign exchange rates where sales
+are made in currencies other than the functional currency of the facility
+manufacturing the product subject to the sale, including in particular the u.s.
+dollar/swiss franc (for inter-company transactions) and the swiss franc/euro and
+swiss franc/british pound sterling (for sales from the company's swiss
+manufacturing facility) exchange rates. for 2002, 2001 and 2000, the changes in
+certain key exchange rates were as follows:
+
+with the acquisition of penn crusher and jeffrey, we will be less
+affected in the future by foreign exchange rates since most of their sales are
+in u.s. dollars. nevertheless, between 35% and 40% of our 2003 revenues will
+likely be from products manufactured in, and services performed from, our
+facilities outside the united states, so that we will continue to have
+significant sensitivity to foreign exchange rate changes.
+
+         total revenues decreased by $3,588,000 or 5.0% (increased by $1,037,000
+or 1.5 % without hasler) in 2002 compared to 2001. the increase in revenues
+without hasler was driven by twelve full months of revenues in 2002 from the
+november 30, 2001 acquisition of pcs versus one month in 2001 and the positive
+effect of a weaker u.s. dollar when translating the revenues of foreign
+operations into u.s. dollars, partially offset by lower revenues in emea/asia
+and the americas due to a weaker global economy with reduced capital equipment
+spending in the process industries we serve. if the average foreign exchange
+rates for 2001 were applied to 2002, total revenues for 2002 would have
+decreased by $6,559,000 or 9.1% (decreased by $1,934,000 or 2.9% without
+hasler).
+
+                                      -17-
+
+total revenues decreased by $13,093,000 or 15.4% ($8,077,000 or 10.7%
+without hasler) in 2001 compared to 2000. most of the 2001 revenue decrease was
+attributable to north america, reflecting the weak economy and a steep decline
+in capital equipment spending in the plastics and chemical industries, with a
+small portion of the decrease resulting from a reduction in hasler revenues in
+western europe. the effect of foreign exchange translation was minimal when
+comparing 2001 with 2000.
+
+         gross profit as a percent of total revenues increased to 42.3% in 2002
+as compared to 40.1% in 2001. the improvement in gross profit was primarily due
+to the improved sales mix as a result of the july 31, 2001 sale of the hasler
+business and to reductions in fixed costs, including the cost reductions made in
+the second half of 2001 and the elimination of goodwill expense as we adopted
+sfas no. 142 on december 30, 2001. goodwill amortization for 2001 was $345,000.
+
+         gross profit as a percent of total revenues decreased to 40.1% in 2001
+as compared to 44.6% in 2000. the decrease in gross profit was primarily due to
+geographic and product sales mix. another factor was the deterioration in
+economic conditions discussed above, which led to fixed costs being absorbed
+over a smaller revenue base.
+
+         selling, general and administrative (sg&a) expenses decreased by
+$2,313,000 or 9.7% in 2002 compared to 2001 (a decrease of approximately
+$425,000 or 1.9% after excluding hasler sg&a, the loss on sale of the hasler
+business and the gain on sale of the swiss machine and welding shops discussed
+above). the decrease in sg&a was primarily due to the elimination of hasler sg&a
+after the sale of hasler on july 31, 2001, fewer employees and the benefits
+realized from one-time costs associated with cost reductions implemented in the
+second half of 2001, offset in part by the effect of higher foreign exchange
+rates (a weaker u.s. dollar).
+
+         selling, general and administrative (sg&a) expense decreased by
+$1,785,000 or 7.0% in 2001 compared to 2000 ($2,163,000 or 8.4% after excluding
+the loss on sale of the hasler business and gain on sale of the swiss machine
+and welding shops discussed above). the decrease in 2001 sg&a was primarily due
+to lower commissions on reduced revenues, fewer employees and the elimination of
+hasler sg&a after july 31, 2001, offset in part by a $378,000 net loss on the
+assets sold. as a percent of total revenues, sg&a was 31.6% in 2002, 33.2% in
+2001 and 30.2% in 2000.
+
+         research and development (r&d) expenditures decreased by $215,000 or
+8.1% in 2002 compared to 2001 and by $538,000 or 16.9% in 2001 compared to 2000.
+r&d decreased in 2002 and 2001 as compared to 2001 and 2000, respectively, due
+to lower staff costs, partly resulting from the sale of the hasler business. the
+2002 decrease was partially offset by an increase in tooling costs and by the
+effect of higher foreign exchange rates (a weaker u.s. dollar). r&d expense as a
+percent of total revenues was 3.6% in 2002 and 3.7% in 2001 and 2000.
+
+         interest expense decreased by $528,000 or 51.4% in 2002 versus 2001 and
+by $53,000 or 4.9% in 2001 as compared to 2000. the 2002 decrease was due to
+lower interest rates and debt reductions of $3,427,000 in switzerland
+($4,284,000 at constant foreign exchange rates) and $2,754,000 in the united
+states, partially offset by higher foreign exchange rates (a weaker u.s.
+dollar). the 2001 decrease was due to lower interest rates and debt reductions.
+interest expense as a percent of total revenues was 0.7% in 2002, 1.4% in 2001
+and 1.3% in 2000.
+
+                                      -18-
+
+income before income taxes was $4,396,000 in 2002, $1,279,000 in 2001
+and $8,008,000 in 2000. the changes during the periods were the result of the
+items discussed above, with the 2002 income before income taxes improving versus
+2001, despite lower revenues in 2002, primarily as a result of the hasler sale
+and the benefits of the globalization and cost reductions initiatives which we
+implemented during the latter half of 2001.
+
+         the 2002, 2001 and 2000 provisions for income tax of $1,112,000,
+$231,000 and $2,170,000 respectively, related primarily to our results in the
+united states and switzerland in 2002 and the united states and germany in 2001
+and 2000. the effective tax rates were 25.3% in 2002, 18.1% in 2001 and 27.1% in
+2000. the higher effective tax rate in 2002 was primarily due to an increase in
+foreign taxable income in 2002 as compared to 2001, which included a loss in
+both switzerland and germany on the sale of the hasler business. on july 1,
+2002, new jersey approved legislation for corporation income tax reform. the
+changes made to the law accounted for an increase in the tax provision for 2002
+of approximately $50,000 after the related federal income tax benefit. the lower
+effective tax rate in 2001 versus 2000 was primarily due to a one-time benefit
+from a german tax law change. we have foreign and u.s. state tax loss
+carryforwards that total $366,000 and $4,900,000, respectively, which, if
+realized, would have an estimated future net income benefit of $106,000 and
+$367,000, respectively.
+
+         we do not believe that inflation has had a material impact on the
+results of operations during the last three years.
+
+         our backlog at constant foreign exchange rates decreased by 36.2% at
+the end of 2002 compared to 2001 due to the very weak capital equipment spending
+environment that existed during all of 2002, and it reflected fewer orders
+received at our feeder group facilities in switzerland and the united states.
+the bulk of the year-end 2002 backlog consisted of orders that should be ready
+for delivery in less than 120 days. our backlog at constant foreign exchange
+rates decreased by 35.3% (24.2% without the hasler business) at the end of 2001
+compared to 2000, primarily due to reduced orders from customers in the united
+states.
+
+liquidity and capital resources
+
+recent developments
+
+         to finance the penn crusher acquisition described earlier, we borrowed
+$20,000,000 from two u.s. banks, and we also issued $4,000,000 in unsecured
+promissory notes to the penn crusher stockholders.
+
+         we borrowed $5,000,000 from a bank through k-tron's u.s. manufacturing
+subsidiary, which loan was combined with an outstanding term loan (see "existing
+debt" below) from that bank to that subsidiary. monthly principal payments of
+$83,000 plus interest at a fixed rate of 5.625% on approximately half the loan
+and at a variable rate of one month libor plus 1.85% on the other half (3.23% at
+december 28, 2002) began february 2003, with the final principal payment of
+approximately $2,416,000 plus interest being due in january 2008. this loan is
+secured by substantially all of the assets of the u.s. manufacturing subsidiary
+and is guaranteed by k-tron international, inc.
+
+                                      -19-
+
+penn crusher borrowed $15,000,000 from another u.s. bank consisting of
+an aggregate of $13,500,000 term debt ($10,000,000 with a five-year term and
+$3,500,000 with a six-year term) and $1,500,000 under a five-year revolving
+credit facility. subject to certain conditions, the revolving credit facility
+provides for up to an additional $2,000,000 of availability. quarterly term debt
+principal payments of $400,000 begin march 31, 2003 and increase each year by
+$62,500 per quarter (or $250,000 per year in the aggregate) through december 31,
+2007, with final quarterly payments of $750,000 in 2008. interest is from one to
+six month libor plus 3% to 3.5%, and the 3% to 3.5% can be reduced to 2% to 2.5%
+upon meeting certain financial ratios. in january 2003, penn crusher entered
+into an interest rate swap related to the entire $10,000,000 five-year term loan
+where interest will not exceed 6.11% for the full term of the loan and can be
+reduced to 5.11% upon meeting certain financial ratios. the interest rates on
+the $3,500,000 million term loan and $1,500,000 revolving credit facility were
+4.91% and 4.38%, respectively, as of january 8, 2003. the penn crusher debt is
+guaranteed by jeffrey and secured by substantially all of the assets of penn
+crusher and jeffrey, but it is not guaranteed by any other k-tron company.
+
+         in addition, k-tron issued $4,000,000 of unsecured promissory notes to
+the penn crusher stockholders as part of the penn crusher purchase price, which
+notes are payable in three equal, annual installments on the second, third and
+fourth anniversaries of the closing date. interest at 6% per annum is payable
+quarterly.
+
+         as stated previously, k-tron and penn crusher are expected to have
+sufficient cash flow to cover all required principal and interest payments on
+the foregoing debt.
+
+other debt
+
+         on march 20, 2000, our u.s. manufacturing subsidiary borrowed
+$7,000,000 under a term loan facility with a u.s. bank, and we used these funds,
+together with $1,194,000 of available cash and a borrowing of $950,000 on a
+$5,000,000 revolving credit facility with the same bank, to repurchase 508,000
+shares of our common stock. the $7,000,000 term loan was originally payable in
+equal monthly installments of principal plus accrued interest over a four-year
+period and was secured by liens on the same collateral which secures the
+revolving credit loan and also a separate mortgage loan from the same u.s. bank.
+one-half of the term loan bore interest at the fixed rate of 8.23% for the first
+two years and from february 4, 2002 until the refinancing of this loan on
+december 30, 2002 was subject to a variable rate of interest equal to one month
+libor plus 1.85 percent (3.23% at december 28, 2002), and the other half was
+subject to the same variable rate basis of interest equal to one month libor
+plus 1.85 percent (3.23% at december 28, 2002). at december 28, 2002, there was
+$2,188,000 outstanding under this term loan. on december 30, 2002, we refinanced
+the outstanding balance of this loan and borrowed an additional $5,000,000 to
+finance the january 2, 2003 acquisition of penn crusher, which refinancing was
+described above under "recent developments." both the original term loan
+facility and the refinanced facility require that we maintain certain specific
+ratios of consolidated debt to net worth and minimum annual debt coverage, and a
+minimum level of net worth, calculated at the end of each fiscal year. in 2002
+and 2001, we were in compliance with these covenants.
+
+                                      -20-
+
+at december 28, 2002, our swiss subsidiary had separate credit
+facilities totaling 17 million swiss francs ($12.2 million) with three swiss
+banks. the company's real property in switzerland is pledged as collateral. as
+of december 28, 2002, there were long-term borrowings outstanding of 3.8 million
+swiss francs ($2.7 million), with 9.2 million swiss francs ($6.7 million)
+available for short-term borrowings and 4 million swiss francs ($2.8 million)
+available for letters of credit and customer guarantees. the annual interest
+rates on the long-term borrowings range from 2.0% to 3.5%.
+
+         in june 1998, our u.s. manufacturing subsidiary refinanced its 20-year
+mortgage debt with a u.s. bank for $2,700,000 at an annual interest rate of
+7.625%. in july 2002, the annual interest rate was reduced to 6.45%. beginning
+august 1, 2002, the loan is repayable in eighty-three monthly principal and
+interest payments of $23,784 with a final payment of $1,042,000 plus interest on
+august 1, 2009. at december 28, 2002, the remaining amount owed under this
+borrowing was $2,197,000.
+
+         also in june 1998, our u.s. manufacturing subsidiary entered into a
+two-year secured revolving credit facility with a u.s. bank that provided for a
+maximum borrowing of $5,000,000, since reduced to $4,000,000. this facility has
+been extended through july 2004. at december 28, 2002, there were no outstanding
+borrowings under this line, and $4,000,000 was available for future borrowings.
+the annual interest rate as of december 28, 2002 was 4.0%.
+
+                                      -21-
+
+we are obligated to make future payments under various contracts such
+as debt and lease agreements. the table set forth below summarizes the
+significant contractual cash obligations as of december 28, 2002:
+
+contractual obligations
+(in thousands)
+
+as a result of the january 2, 2003 penn crusher acquisition, our
+obligation to make future payments under debt and lease agreements is as
+follows:
+
+-22-
+
+our capitalization at the end of 2002, 2001 and 2000 is set forth
+below:
+
+(dollars in thousands)
+
+as indicated by the long-term debt numbers in the contractual
+obligations tables on the immediately preceding page, the numbers and ratios in
+the above capitalization table will change significantly in 2003 as a result of
+the substantial debt incurred in connection with the penn crusher acquisition.
+
+         total debt decreased by $6,181,000 in 2002 compared to the end of 2001
+and by $1,300,000 in 2001 versus the end of 2000. total debt without the effect
+of foreign currency translation decreased by $7,038,000 in 2002 and by
+$1,257,000 in 2001.
+
+         at the end of 2002 and 2001, working capital was $14,106,000 and
+$15,565,000, respectively, and the ratio of current assets to current
+liabilities was 1.93 and 2.18, respectively.
+
+         in 2002 and 2001, we utilized internally generated funds to meet our
+working capital needs, while in 2001 we also utilized lines of credit.
+
+         net cash provided by operating activities was $9,949,000 in 2002,
+$5,253,000 in 2001 and $7,107,000 in 2000. the increase in operating cash flow
+in 2002 versus 2001 was primarily due to higher net income, a reduction in
+inventory and an increase in accounts payable and accrued expenses partially
+offset by an increase in prepaid expenses and a decrease in depreciation and
+amortization. the decrease in operating cash flow in 2001 compared to 2000 was
+primarily due to lower net income. net income and depreciation and amortization
+were the principal components of cash provided by operating activities in all
+three years.
+
+         the average number of days to convert accounts receivable to cash was
+80 days in 2002 compared to 86 days in 2001 and 85 days in 2000. the average
+number of days to convert inventory into accounts receivable was 91 days in 2002
+compared to 96 days in 2001 and 88 days in 2000.
+
+                                      -23-
+
+net cash used in investing activities was $2,829,000, $2,057,000 and
+$4,267,000 in 2002, 2001 and 2000, respectively. capital expenditures were
+$2,967,000, $2,144,000 and $3,699,000 in 2002, 2001 and 2000, respectively.
+funds used in 2001 to acquire pcs were $621,000 while funds received from the
+sale of the assets of the hasler business and the swiss machine and welding
+shops described above were $776,000. funds used in 2000 to acquire colormax
+limited were $491,000.
+
+         cash used in financing activities in 2002 was for debt reduction, while
+in 2001 and 2000, cash was used primarily for the purchase of 43,700 shares of
+our common stock in 2001 and 520,200 shares in 2000, as well as for debt
+reduction in 2001. in 2002, 2001 and 2000, cash was obtained from operations,
+and cash was also obtained from long-term borrowings in 2000. cash and
+short-term investments increased to $2,694,000 at the end of 2002 versus
+$2,214,000 at the end of 2001. cash decreased to $553,000 at the end of 2000
+from $3,093,000 a year earlier.
+
+         of the total increase in shareholders' equity of $6,858,000 for 2002,
+$3,587,000 was attributable to changes in foreign exchange rates, particularly
+with respect to the swiss franc and euro, while foreign exchange rates caused a
+translation decrease in shareholders' equity of $620,000 in 2001 and $601,000 in
+2000.
+
+critical accounting policies and estimates
+
+         the company prepares its financial statements in conformity with
+accounting principles generally accepted in the united states of america. the
+preparation of such financial statements requires management to make estimates
+and assumptions that affect the reported amounts of assets and liabilities and
+disclosures of contingent assets and liabilities at the date of those financial
+statements and the reported amounts of revenues and expenses during the
+reporting period. actual results could differ from those estimates.
+
+         the company discloses its significant accounting policies in the notes
+to its audited consolidated financial statements.
+
+         judgments and estimates of uncertainties are required in applying the
+company's accounting policies in certain areas. following are some of the areas
+requiring significant judgments and estimates: determination of an asset's
+useful life, estimates of allowances for bad debts, cash flow and valuation
+assumptions in performing asset impairment tests of long-lived assets, estimates
+of realizability of deferred tax assets, warranty cost, and legal contingencies.
+
+         there are numerous critical assumptions that may influence accounting
+estimates in these and other areas. we base our critical assumptions on
+historical experience, third-party data and various other estimates which we
+believe to be reasonable. certain of the more critical assumptions include:
+
+depreciable lives of plant and equipment
+
+- -        changes in technology
+
+- -        wear and tear
+
+- -        changes in market demand
+
+                                      -24-
+
+bad debt risk
+
+- -        credit worthiness of specific customers and aging of customer balances
+
+- -        contractual rights and obligations
+
+- -        general and specific economic conditions
+
+asset impairment determinations
+
+- -        intended use of assets and expected future cash flows
+
+- -        industry specific trends and economic conditions
+
+- -        customer preferences and behavior patterns
+
+- -        impact of regulatory initiatives
+
+deferred taxes
+
+- -        expected future profitability and cash flows
+
+- -        impact of regulatory initiatives
+
+- -        timing of reversals of existing temporary differences between book and
+         taxable income
+
+warranty cost
+
+- -        new product introduction
+
+- -        past experience
+
+legal contingencies
+
+         we are currently involved in certain legal proceedings. we have accrued
+our estimate of the probable costs for the resolution of these claims. this
+estimate has been developed in consultation with outside counsel handling our
+defense in these matters and is based upon an analysis of potential results,
+assuming a combination of litigation and settlement strategies. we do not
+believe these proceedings will have a material adverse effect on our
+consolidated financial position. it is possible, however, that future results of
+operations for any particular quarterly or annual period could be materially
+affected by changes in our assumptions, or the effectiveness of our strategies,
+related to these proceedings.
+
+forward-looking statements and risk factors
+
+         the private securities litigation reform act of 1995 (the "act")
+provides a safe harbor for forward-looking statements made by us or on our
+behalf. we and our representatives may from time to time make written or oral
+statements that are "forward-looking," including statements contained in this
+report and other filings with the securities and exchange commission, reports to
+our shareholders and news releases. all statements that express expectations,
+estimates, forecasts or projections are forward-looking statements within the
+meaning of the act. in addition, other written or oral statements which
+constitute forward-looking statements may be made by us or on our behalf. words
+such as "expects," "anticipates," "intends," "plans," "believes," "seeks,"
+"estimates," "projects," "forecasts," "may," "should," variations of such words
+and similar expressions are intended to identify such forward-looking
+statements. these statements are not guarantees of future performance and
+involve certain risks, uncertainties and assumptions which are difficult to
+predict.
+
+                                      -25-
+
+therefore, actual outcomes and results may differ materially from what is
+expressed or forecasted in or suggested by such forward-looking statements. the
+forward-looking statements contained in this report include but are not limited
+to statements regarding the effect of the acquisition of penn crusher and
+jeffrey, our ability to repay debt, our ability to find alternative suppliers
+for certain components, the effect of the expiration of our patents on our
+business, the expected time for shipments of our products to customers and the
+resulting effect on our backlog, the expected time for the introduction of new
+products by our feeder group, the sufficiency of our facilities, the retention
+of all of our future earnings for use in our business, the effect of changes in
+foreign exchange rates on our business, the effect of recent new jersey tax
+legislation and the effect on our business of legal proceedings in which we are
+involved. we undertake no obligation to update publicly any forward-looking
+statements, whether as a result of new information, future events or otherwise.
+
+         a wide range of factors could materially affect our future performance
+and financial and competitive position, including the following: (i) increasing
+price and product/service competition by domestic and foreign competitors,
+including new entrants; (ii) the mix of products/services sold by us; (iii)
+rapid technological changes and developments and our ability to continue to
+introduce competitive new products on a timely and cost-effective basis; (iv)
+changes in u.s. and global financial and currency markets, including significant
+interest rate and foreign currency exchange rate fluctuations; (v) protection
+and validity of patent and other intellectual property rights held by us and our
+competitors; (vi) the cyclical nature of our business as a capital goods
+supplier; (vii) possible future litigation and governmental proceedings; (viii)
+the availability of financing and financial resources in the amounts, at the
+times and on the terms required to support our future business, including
+capacity expansions and possible acquisitions; (ix) the loss of key customers,
+employees or suppliers; (x) the failure to carry out marketing and sales plans;
+(xi) the failure to integrate acquired businesses without substantial costs,
+delays or other operational or financial problems; (xii) economic, business and
+regulatory conditions and changes which may affect the level of new investments
+and purchases made by customers, including general economic and business
+conditions that are less favorable than expected; (xiii) domestic and
+international political and economic conditions; and (xiv) the outcome of any
+legal proceedings in which we are involved.
+
+         this list of factors that may affect our future performance and
+financial and competitive position and also the accuracy of forward-looking
+statements is illustrative, but it is by no means exhaustive. accordingly, all
+forward-looking statements should be evaluated with the understanding of their
+inherent uncertainty.
