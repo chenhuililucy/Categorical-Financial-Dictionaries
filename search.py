@@ -41,7 +41,9 @@ positive = f'categorical_dictionaries/{topic}-pos.csv'
 # =====================       YOUR OUTPUT FILES          =================== #
 
 # Define the name of your output csv
-csv1 = f'{topic}-metrics.csv'
+csv1 = f'{topic}-per-sentence-metrics.csv'
+csv2 = f'{topic}-overall-metrics.csv'
+
 
 # ==================       LOAD DICTIONARY      ============================ #
 
@@ -717,5 +719,109 @@ def searchwords():
 
 searchwords()
 
+def finalcount():
+    a = 0
+    variables = [[] for i in range(22)]
+    f_out2 = open(csv2, "w")
+    wr2 = csv.writer(f_out2)
+    var = [0] * 19
+    
+    with open(csv1, "r") as csvfile:
+
+        freader = csv.reader(csvfile)
+        for row in freader:
+            if (
+                "none" not in row[0]
+            ):  # matches a component in directory name, please change accordingly
+                # logger.info(row[0])
+                everyfilename = row[0]
 
 
+
+                # ========= TODO : please change the below to match the year ========= #
+
+
+                year = "20" + row[0][row[0].find("-") + 1 : row[0].find("-") + 3]
+                variables[1].append(year)
+                st = ""
+                for e in row[0]:
+                    if e.isalpha() or e == "/":
+                        continue
+                    elif e != "-":
+                        st += e
+                    elif e == "-":
+                        break
+
+                # ===================================================================== #
+
+
+
+
+
+
+                # ============ TODO : please change the below to match the cik ============== #
+
+
+                # please change the below to match the cik
+                cik = st
+                regex = "^0+(?!$)"
+                cik = re.sub(regex, "", cik)
+                variables[2].append(cik)
+
+
+                # ===================================================================== #
+
+
+
+
+
+
+                variables[0].append(everyfilename)
+                a = a + 1
+
+                if (
+                    a > 1
+                ):  # if more than one file has been loaded and the next line is the actual filename
+                    
+                    for idex in range(len(var)):
+                        variables[idex+3].append(var[idex])
+
+                var = [0] * 19
+
+            for idex in range(1, len(row)):
+                if row[idex].isdigit():
+                    var[idex] += int(row[idex])
+
+            var[16] += 1 # add one to the 
+
+    p = zip(*variables)
+    wr2.writerow(
+        [
+            "filename",
+            "year",
+            "cik",
+            "",
+            "word_length",
+            "amp_pos",
+            "amp_neg",
+            "neg_pos",
+            "neg_neg",
+            "bad_pos",
+            "bad_neg",
+            "good_pos",
+            "good_neg",
+            "LM_pos",
+            "LM_neg",
+            "positive_perf",
+            "negative_perf",
+            "verbose_good",
+            "verbose_bad",
+            "total_sent_cnt",
+            "sentlen"
+        ]
+    )
+    for row in p:
+        wr2.writerow(row)
+
+
+# finalcount()
