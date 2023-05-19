@@ -1,0 +1,6 @@
+"['lines', 'of', 'credit', 'with']",amp_pos
+"['lines', 'of', 'credit', 'and']",good_pos
+"['lines', 'of', 'credit', 'our']",amp_pos
+"['secured', 'revolving', 'credit', 'facility']",good_pos
+"['increase', 'inaccounts', 'receivable', 'and', 'inventory']",amp_pos
+"['income', 'and', 'depreciation', 'and']",good_pos

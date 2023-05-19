@@ -45,7 +45,6 @@ csv1 = f'{topic}-metrics.csv'
 
 # ==================       LOAD DICTIONARY      ============================ #
 
-
 # performance dictionaries
 posperdict = defaultdict(list)
 negperfdict = defaultdict(list)
@@ -57,10 +56,6 @@ goodset = set()
 # LM dictionaries
 LMpositive = set()
 LMnegative = set()
-
-# internal and external dictionaries
-#internaldict = defaultdict(list)
-#externaldict = defaultdict(list)
 
 logger = logging
 
@@ -134,192 +129,95 @@ def read_dictinonaries():
             LMnegative.add(singlenegperfword)
 
 
-    """
-    with open("internallemma.csv", "r", errors="ignore") as internalfile:
-        w1 = []
-        w2 = []
-        internalwords = csv.reader(internalfile)
-        for row in internalwords:
-            singleinternalword = row[0].lower()
-            if len(singleinternalword.split(" ")) > 1:
-                w1.append(singleinternalword.split(" ")[0])
-                w2.append(singleinternalword.split(" ")[1])
-            else:
-                word1 = singleinternalword
-                internaldict.update({word1: "."})
-                logger.info(word1)
-    # For memory reasons,
-    # will not include bigram
-    # if unigram present
-
-    for a, b in list(zip(w1, w2)):
-        if a not in internaldict:
-            internaldict[a] = [b]
-        else:
-            if not isinstance(internaldict[a], str):
-                internaldict[a].append(b)
-
-    with open("externallemma.csv", "r", errors="ignore") as externalfile:
-        w1 = []
-        w2 = []
-        externalwords = csv.reader(externalfile)
-        for row in externalwords:
-            singleexternalwords = row[0].lower()
-            if len(singleexternalwords.split(" ")) > 1:
-                w1.append(singleexternalwords.split(" ")[0])
-                w2.append(singleexternalwords.split(" ")[1])
-            else:
-                word1 = singleexternalwords
-                externaldict.update({word1: "."})
-                logger.info(word1)
-
-    # For memory reasons,
-    # will not include bigram
-    # if unigram present
-
-    for a, b in list(zip(w1, w2)):
-        if a not in externaldict:
-            externaldict[a] = [b]
-        else:
-            if not isinstance(externaldict[a], str):
-                externaldict[a].append(b)
-
-    """
-
 # =========================================================================== #
 
 
-def match(attributioncnt, intextcnt, performance):
-    """
-    Simple matching function to match for attribution
-    """
-
-    # enter 1 for an int/pos statement, 2 for a int/neg, 3 for an ext/pos, and 4 for an ext/neg
-    if intextcnt[0] > 0 and performance[0] > 0:
-        attributioncnt[0] = 1
-    if intextcnt[0] > 0 and performance[1] > 0:
-        attributioncnt[1] = 1
-    if intextcnt[1] > 0 and performance[0] > 0:
-        attributioncnt[2] = 1
-    if intextcnt[1] > 0 and performance[1] > 0:
-        attributioncnt[3] = 1
-
-    return attributioncnt
-
-
 def check_presence(dictionary, ww, i, a, b):
+    """
+        Check the presence of words in a dictionary and perform corresponding operations.
+
+    Args:
+        dictionary (dict): The dictionary to check against.
+        ww (list): The list of words.
+        i (int): Current index.
+        a (int): Offset.
+        b (int): Offset.
+
+    Returns:
+        tuple: A tuple containing:
+        i (int): the updated index,
+        polarity_count (list): a list of consisting of the total word length for each of the 8 possibilities in a given sentence
+        check_ (list): a list containing example phrases that is matched within each category
+        check_polarity (list): a list consisting of the classification (eg. amp_pos, neg_pos) of example phrases
+        result (int): overall polarity of this particular phrase (1 for positive, -1 for negative)
+    """
+
     global polarity_cnt
     global check_
     global check_polarity
 
     # ======================================================= #
+
+    # case where matched result is a bigram
     if ww[i + b] in dictionary[ww[i].lower()]:
-        if ww[i + a + b] in amplifierset and dictionary == posperdict:
-            
-            polarity_cnt[0] += sum([a, b])
-            check_polarity.append("amp_pos")
+        if dictionary == posperdict:
+            if ww[i + a + b] in amplifierset:
+                polarity_cnt[0] += sum([a, b])
+                check_polarity.append("amp_pos")
+            elif ww[i + a + b] in negatorset:
+                polarity_cnt[2] += sum([a, b])
+                check_polarity.append("neg_pos")
+            elif ww[i + a + b] in badset:
+                polarity_cnt[6] += sum([a, b])
+                check_polarity.append("bad_pos")
+            elif ww[i + a + b] in goodset:
+                polarity_cnt[4] += sum([a, b])
+                check_polarity.append("good_pos")
             check_.append(ww[i : i + a + b + 1])
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
-        elif ww[i + a + b] in negatorset and dictionary == posperdict:
-            print(ww[i: i + a + b + 1])
-            polarity_cnt[2] += sum([a, b])
-            check_polarity.append("neg_pos")
-            check_.append(ww[i : i + a + b + 1])
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in badset and dictionary == posperdict:
-            print(ww[i: i + a + b + 1])
-            polarity_cnt[6] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("bad_pos")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in goodset and dictionary == posperdict:
-            polarity_cnt[4] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("good_pos")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
-        elif ww[i + a + b] in amplifierset and dictionary == negperfdict:
-            print(ww[i: i + a + b + 1])
-            polarity_cnt[1] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("amp_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in negatorset and dictionary == negperfdict:
-            polarity_cnt[3] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("neg_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
-        elif ww[i + a + b] in badset and dictionary == negperfdict:
-            print(ww[i: i + a + b + 1])
-            polarity_cnt[7] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("bad_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in goodset and dictionary == negperfdict:
-            
-            polarity_cnt[5] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("good_neg")
             i = i + a + b
             return i, polarity_cnt, check_, check_polarity, 1
 
+        elif dictionary == negperfdict:
+            if ww[i + a + b] in amplifierset:
+                polarity_cnt[1] += sum([a, b])
+                check_polarity.append("amp_neg")
+            elif ww[i + a + b] in negatorset:
+                polarity_cnt[3] += sum([a, b])
+                check_polarity.append("neg_neg")
+            elif ww[i + a + b] in badset:
+                polarity_cnt[7] += sum([a, b])
+                check_polarity.append("bad_neg")
+            elif ww[i + a + b] in goodset:
+                polarity_cnt[5] += sum([a, b])
+                check_polarity.append("good_neg")
+            
+            check_.append(ww[i : i + a + b + 1])
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, -1
+        # ================================================== #
+
     elif "." in dictionary[ww[i].lower()]:
         if dictionary == posperdict:
-            if ww[i + b] in amplifierset:
-                polarity_cnt[0] += b
-                check_.append(ww[i : i + b + 1])
-                check_polarity.append("amp_pos")
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, 1
-            if ww[i + b] in negatorset:
-                polarity_cnt[2] += b
-                check_.append(ww[i : i + b + 1])
-                check_polarity.append("neg_pos")
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, -1
-            if ww[i + b] in badset:
-                polarity_cnt[6] += b
-                check_.append(ww[i : i + b + 1])
-                check_polarity.append("bad_pos")
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, -1
-            if ww[i + b] in goodset:
-                polarity_cnt[4] += b
-                check_.append(ww[i : i + b + 1])
-                check_polarity.append("good_pos")
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, 1
-        if dictionary == negperfdict:
-            if ww[i + b] in amplifierset:
-                polarity_cnt[1] += b
-                check_polarity.append("amp_neg")
-                check_.append(ww[i : i + b + 1])
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, -1
-            elif ww[i + b] in negatorset:
-                polarity_cnt[3] += b
-                check_polarity.append("neg_neg")
-                check_.append(ww[i : i + b + 1])
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, 1
-            elif ww[i + b] in badset:
-                polarity_cnt[7] += b
-                check_polarity.append("bad_neg")
-                check_.append(ww[i : i + b + 1])
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, -1
-            elif ww[i + b] in goodset:
-                polarity_cnt[5] += b
-                check_polarity.append("good_neg")
-                check_.append(ww[i : i + b + 1])
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity, 1
+            polarity_map = {
+                tuple(amplifierset): ("amp_pos", 0, 1),
+                tuple(negatorset): ("neg_pos", 2, -1),
+                tuple(badset): ("bad_pos", 6, -1),
+                tuple(goodset): ("good_pos", 4, 1)
+            }
+        elif dictionary == negperfdict:
+            polarity_map = {
+                tuple(amplifierset): ("amp_neg", 1, -1),
+                tuple(negatorset): ("neg_neg", 3, 1),
+                tuple(badset):("bad_neg", 7, -1),
+                tuple(goodset): ("good_neg", 5, 1)
+            }
+        for set_, (description, index, polarity) in polarity_map.items():
+            if ww[i + b] in set_:
+                polarity_cnt[index] += b
+                check_.append(ww[i: i + b + 1])
+                check_polarity.append(description)
+                i += b
+                return i, polarity_cnt, check_, check_polarity, polarity
 
 
 def check_existence(dictionary, temp, ww, i, a, b):
@@ -744,8 +642,7 @@ def searchwords():
                         sentno -= 1
             except UnicodeDecodeError:
                 print("Error")
-    print(len(filename))
-    print(len(verbose_bad))
+
     p = zip(
         filename,
         sentnolist,
