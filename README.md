@@ -1,6 +1,6 @@
 ## Polarity Based Categorical Financial Dictionaries
 
-This repository features the dictionaries as well as a simple script to gather statistics from them, associated with our paper, *Constructing a Polarity Based Dictionary for Financial Language*, authored by Chenhui Lucy Li and Amir Amel-Zadeh
+This repository features the dictionaries as well as a simple script to gather statistics from them, associated with our paper, *Constructing a Polarity Based Dictionary for Financial Language*, authored by Chenhui Lucy Li and Amir Amel-Zadeh. You may find the paper here: https://drive.google.com/file/d/1UwgTCrnr__8iZqehFts-tNNzw0Kbu1Cg/view?usp=sharing
 
 Our ambition for this project is to develop an open-source set of dictionaries for quantifying and analyzing financial language in noisy texts. Particularly, for each category of financial indicators, we look into how positive or negative the description of performance is. 
 
