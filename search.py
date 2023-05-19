@@ -136,6 +136,8 @@ def check_presence(dictionary, ww, i, a, b):
     """
         Check the presence of words in a dictionary and perform corresponding operations.
 
+        Handles the case where performance phrase comes before amplifier / negator / good / bad
+
     Args:
         dictionary (dict): The dictionary to check against.
         ww (list): The list of words.
@@ -160,40 +162,55 @@ def check_presence(dictionary, ww, i, a, b):
 
     # case where matched result is a bigram
     if ww[i + b] in dictionary[ww[i].lower()]:
-        if dictionary == posperdict:
-            if ww[i + a + b] in amplifierset:
-                polarity_cnt[0] += sum([a, b])
-                check_polarity.append("amp_pos")
-            elif ww[i + a + b] in negatorset:
-                polarity_cnt[2] += sum([a, b])
-                check_polarity.append("neg_pos")
-            elif ww[i + a + b] in badset:
-                polarity_cnt[6] += sum([a, b])
-                check_polarity.append("bad_pos")
-            elif ww[i + a + b] in goodset:
-                polarity_cnt[4] += sum([a, b])
-                check_polarity.append("good_pos")
+        if ww[i + a + b] in amplifierset and dictionary == posperdict:
+            polarity_cnt[0] += sum([a, b])
+            check_polarity.append("amp_pos")
             check_.append(ww[i : i + a + b + 1])
             i = i + a + b
             return i, polarity_cnt, check_, check_polarity, 1
-
-        elif dictionary == negperfdict:
-            if ww[i + a + b] in amplifierset:
-                polarity_cnt[1] += sum([a, b])
-                check_polarity.append("amp_neg")
-            elif ww[i + a + b] in negatorset:
-                polarity_cnt[3] += sum([a, b])
-                check_polarity.append("neg_neg")
-            elif ww[i + a + b] in badset:
-                polarity_cnt[7] += sum([a, b])
-                check_polarity.append("bad_neg")
-            elif ww[i + a + b] in goodset:
-                polarity_cnt[5] += sum([a, b])
-                check_polarity.append("good_neg")
-            
+        elif ww[i + a + b] in negatorset and dictionary == posperdict:
+            polarity_cnt[2] += sum([a, b])
+            check_polarity.append("neg_pos")
             check_.append(ww[i : i + a + b + 1])
             i = i + a + b
             return i, polarity_cnt, check_, check_polarity, -1
+        elif ww[i + a + b] in badset and dictionary == posperdict:
+            polarity_cnt[6] += sum([a, b])
+            check_.append(ww[i : i + a + b + 1])
+            check_polarity.append("bad_pos")
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, -1
+        elif ww[i + a + b] in goodset and dictionary == posperdict:
+            polarity_cnt[4] += sum([a, b])
+            check_.append(ww[i : i + a + b + 1])
+            check_polarity.append("good_pos")
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, 1
+        elif ww[i + a + b] in amplifierset and dictionary == negperfdict:
+            polarity_cnt[1] += sum([a, b])
+            check_.append(ww[i : i + a + b + 1])
+            check_polarity.append("amp_neg")
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, -1
+        elif ww[i + a + b] in negatorset and dictionary == negperfdict:
+            polarity_cnt[3] += sum([a, b])
+            check_.append(ww[i : i + a + b + 1])
+            check_polarity.append("neg_neg")
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, 1
+        elif ww[i + a + b] in badset and dictionary == negperfdict:
+            polarity_cnt[7] += sum([a, b])
+            check_.append(ww[i : i + a + b + 1])
+            check_polarity.append("bad_neg")
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, -1
+        elif ww[i + a + b] in goodset and dictionary == negperfdict:
+            polarity_cnt[5] += sum([a, b])
+            check_.append(ww[i : i + a + b + 1])
+            check_polarity.append("good_neg")
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity, 1
+
         # ================================================== #
 
     elif "." in dictionary[ww[i].lower()]:
@@ -220,7 +237,34 @@ def check_presence(dictionary, ww, i, a, b):
                 return i, polarity_cnt, check_, check_polarity, polarity
 
 
+
+# =========================================================================== #
+
 def check_existence(dictionary, temp, ww, i, a, b):
+
+    """
+        Check the presence of words in a dictionary and perform corresponding operations.
+
+        Handles the case where amplifier / negator / good / bad comes before performance phrase
+
+
+    Args:
+        dictionary (dict): The dictionary to check against.
+        temp: polarity of the amplifier / negator / good / bad
+        ww (list): The list of words.
+        i (int): Current index.
+        a (int): Offset.
+        b (int): Offset.
+
+    Returns:
+        tuple: A tuple containing:
+        i (int): the updated index,
+        polarity_count (list): a list of consisting of the total word length for each of the 8 possibilities in a given sentence
+        check_ (list): a list containing example phrases that is matched within each category
+        check_polarity (list): a list consisting of the classification (eg. amp_pos, neg_pos) of example phrases
+        result (int): overall polarity of this particular phrase (1 for positive, -1 for negative)
+    """
+
     global polarity_cnt
     global check_
     global check_polarity
