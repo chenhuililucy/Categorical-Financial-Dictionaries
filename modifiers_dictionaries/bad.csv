@@ -1,8 +1,15 @@
+aberrant
+aberration
+aberrations
 abnormal
 abnormal 
 abnormalities
 abnormality
 abnormally
+abrogate
+abrogates
+abrogation
+abrogations
 abrupt
 abruptly
 abruptness
@@ -60,6 +67,10 @@ alleged
 allegedly
 alleges
 alleging
+annoy
+annoyed
+annoying
+annoys
 anomalies
 anomalous
 anomalously
@@ -129,7 +140,6 @@ breaking
 breaks
 bribe
 bribed
-bribeds
 briberies
 bribery
 bribes
@@ -180,8 +190,6 @@ cautioned
 cautioning
 cautions
 cease
-cease use
-cease uses
 ceased
 ceases
 ceasing
@@ -191,7 +199,6 @@ censures
 censuring
 challenge
 challenged
-challengeds
 challenger
 challengers
 challenges
@@ -365,12 +372,6 @@ convicting
 conviction
 convictions
 convicts
-correct
-corrected
-correcting
-correction
-corrections
-corrects
 corrupt
 corrupted
 corrupting
@@ -458,7 +459,6 @@ debars
 decease
 deceased
 deceases
-deceife
 deceit
 deceitful
 deceitfulness
@@ -491,8 +491,6 @@ deepen
 deepened
 deepening
 deepens
-deeper
-deepers
 deface
 defaced
 defacement
@@ -545,6 +543,8 @@ degrade
 degraded
 degrades
 degrading
+delay
+delays
 deleterious
 deliberate
 deliberated
@@ -595,6 +595,7 @@ depletion
 depletions
 deprecation
 deprecations
+depress
 depresses
 depressing
 depression
@@ -607,12 +608,6 @@ deprive
 deprived
 deprives
 depriving
-derecognition
-derecognitions
-derecognize
-derecognized
-derecognizes
-derecognizing
 derelict
 dereliction
 derelictions
@@ -627,7 +622,6 @@ destabilizes
 destabilizing
 destroy
 destroyed
-destroyeds
 destroying
 destroys
 destruction
@@ -660,7 +654,6 @@ detracts
 detriment
 detrimental
 detrimentally
-detrimentals
 detriments
 devaluation
 devaluations
@@ -674,8 +667,6 @@ devastates
 devastating
 devastation
 devastations
-development
-developments
 deviate
 deviated
 deviates
@@ -687,9 +678,6 @@ devolve
 devolved
 devolves
 devolving
-differ
-differed
-differs
 difficult
 difficulties
 difficultly
@@ -720,7 +708,6 @@ disallow
 disallowance
 disallowances
 disallowed
-disalloweds
 disallowing
 disallows
 disappear
@@ -779,9 +766,6 @@ discontinuations
 discontinue
 discontinued
 discontinues
-discontinues accrual
-discontinues hedge
-discontinues hedges
 discontinuing
 discourage
 discouraged
@@ -1024,7 +1008,6 @@ egregiously
 eliminations
 embargo
 embargoed
-embargoeds
 embargoes
 embargoing
 embarrass
@@ -1161,6 +1144,7 @@ failings
 fails
 failure
 failures
+fallout
 falsely
 falsification
 falsifications
@@ -1468,7 +1452,6 @@ incorrect
 incorrectly
 incorrectness
 incorrectnesses
-incorrects
 indecencies
 indecency
 indecent
@@ -1635,22 +1618,11 @@ layoff
 layoffs
 leach
 leaches
-lessen
-lessens
-lesser
-lesser degree
-lesser degrees
-lesser extent
-lesser extents
-lessers
-lessor
-lessors
 lie
 lied
 lies
 limitation
 limitations
-limited
 linger
 lingered
 lingering
@@ -1676,7 +1648,6 @@ lockouts
 lose
 loses
 losing
-losis
 loss
 losses
 lost
@@ -1703,7 +1674,6 @@ manipulative
 manipulatives
 markdown
 markdowns
-minima
 minimal
 misapplication
 misapplications
@@ -1855,10 +1825,6 @@ mothball
 mothballed
 mothballing
 mothballs
-negate
-negated
-negates
-negating
 negative
 negatively
 negatives
@@ -1976,8 +1942,6 @@ outfitted
 outfitter
 outfitters
 outfitting
-outflow
-outflows
 outlay
 outlays
 outmode
@@ -2084,7 +2048,6 @@ persistence
 persistences
 persistent
 persistently
-persistents
 persisting
 persists
 pervasive
@@ -2247,9 +2210,6 @@ recklesses
 recklessly
 recklessness
 recklessnesses
-reconcile
-reconciled
-reconciles
 recoup
 recoups
 recourse
@@ -2291,9 +2251,6 @@ rejecting
 rejection
 rejections
 rejects
-relieve
-relieved
-relieves
 relinquish
 relinquished
 relinquishes
@@ -2354,11 +2311,6 @@ restrict cash
 restrict cashes
 restricted
 restricts
-restructure
-restructure indebtedness
-restructure indebtednesses
-restructured
-restructures
 restructuring
 restructurings
 retaliate
@@ -2386,9 +2338,7 @@ ridiculed
 ridicules
 ridiculing
 riskier
-riskiers
 riskiest
-riskiests
 risky
 sabotage
 sabotages
@@ -2429,18 +2379,11 @@ severely
 severities
 severity
 severs
-sharply
 shock
 shocked
 shocks
 shortage
 shortages
-shorten
-shortened
-shortening
-shortens
-shorter
-shorters
 shortfall
 shortfalls
 shrinkage
@@ -2490,7 +2433,6 @@ steal
 steals
 stole
 stolen
-stop
 stoppage
 stoppages
 stopped
@@ -2704,7 +2646,6 @@ unfavourable
 unfeasible
 unfit
 unfitness
-unfitnesses
 unfits
 unforeseeable
 unforeseen
@@ -2894,6 +2835,7 @@ weakening
 weakens
 weaker
 weakers
+weakest
 weaklies
 weakly
 weakness
@@ -2921,6 +2863,7 @@ worsen
 worsened
 worsening
 worsens
+worst
 worthless
 worthlesses
 writedown
