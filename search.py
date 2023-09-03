@@ -541,7 +541,6 @@ def searchwords():
                                             ww
                                         ):
                                             temp = -2
-                                            
                                             ans = check_existence(
                                                 posperdict, temp, ww, i, a, b
                                             )
@@ -570,7 +569,7 @@ def searchwords():
                                                 negative_perf_phrase += 1
                                                 break
                                             
-                                            if record_bad :
+                                            if record_bad and b == 2 and a == 2:
                                                 v_bad += 1
                                                 record_bad = False
 
@@ -579,7 +578,6 @@ def searchwords():
                                         ):
 
                                             temp = 2
-                                            
                                             ans = check_existence(
                                                 posperdict, temp, ww, i, a, b
                                             )
@@ -608,7 +606,7 @@ def searchwords():
                                                 positive_perf_phrase += 1
                                                 break
                                             
-                                            if record_good:
+                                            if record_good and b == 2 and a == 2:
                                                 v_good += 1
                                                 record_good = False
 
@@ -650,6 +648,21 @@ def searchwords():
                                                     negative_perf_phrase += 1
                                                 Continue_Search = False
                                                 break
+
+
+                                        elif ww[i].lower() in badset and i + a + b >= len(
+                                                    ww
+                                                ):
+                                                v_bad += 1
+                                                record_bad = False
+                                    
+
+                                        elif ww[i].lower() in goodset and i + a + b >= len(
+                                                    ww
+                                                ):
+                                                v_good += 1
+                                                record_good = False
+
 
                             i += 1
                             record_good = True
