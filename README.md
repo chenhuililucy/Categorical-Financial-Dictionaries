@@ -60,4 +60,30 @@ After the script finishes running, you should find the files "words.csv" that in
 
 A small function to convert the metrics to document level is included in search.py named as finalcount(), you may need to modify this to satisfy your own needs. 
 
+## Collaboration 
+
+As the dictionaries are constructed objectively, we are open to any suggestions / edits you would like to make towards them, we welcome any edits made to the search code as well. To amend the dictionary through a pull request to the repository, follow these steps:
+
+## 1. Fork the Repository:
+
+Start by navigating to the original repository on GitHub, which is https://github.com/chenhuililucy/Categorical-Financial-Dictionaries. Click on the "Fork" button in the top-right corner to create a copy of the repository under your GitHub account.
+
+
+Clone Your Fork:
+Clone your forked repository to your local machine using the following command (replace <your-username> with your GitHub username):
+
+```bash
+git clone https://github.com/<your-username>/Categorical-Financial-Dictionaries.git
+```
+
+## 2. Commit and Push Changes:
+After you've made your changes, commit them to your local repository using the following commands:
+
+```bash
+git add .
+git commit -m "Describe the changes you made"
+git push origin master
+```
+
+Navigate to your forked repository on GitHub and click on the "Pull Request" tab. Then click the "New Pull Request" button. GitHub will compare the changes you made in your fork with the original repository. Ensure that the base repository is set to the original repository, and the base branch is the branch you want to merge into (usually, it's "master"). 
 
