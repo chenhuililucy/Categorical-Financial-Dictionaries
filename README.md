@@ -85,5 +85,5 @@ git commit -m "Describe the changes you made"
 git push origin master
 ```
 
-Navigate to your forked repository on GitHub and click on the "Pull Request" tab. Then click the "New Pull Request" button. GitHub will compare the changes you made in your fork with the original repository. Ensure that the base repository is set to the original repository, and the base branch is the branch you want to merge into (usually, it's "master"). 
+Navigate to your forked repository on GitHub and click on the "Pull Request" tab. Then click the "New Pull Request" button. GitHub will compare the changes you made in your fork with the original repository. Ensure that the base repository is set to the original repository, and the base branch is the branch you want to merge into (usually, it's "master"). One of the maintainers of the repository will review your PR.
 
