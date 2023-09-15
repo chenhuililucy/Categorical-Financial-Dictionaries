@@ -9,7 +9,7 @@ import logging
 import nltk
 nltk.download('punkt')
 
-# ======================     Category.    ======================    #
+# ======================     CATEGORY    ================================ #
 # Please change this according to the category you are tracking
 # Available categories are:
 
@@ -37,6 +37,8 @@ good = "modifiers_dictionaries/good.csv"
 negative = f'categorical_dictionaries/{topic}-neg.csv'
 positive = f'categorical_dictionaries/{topic}-pos.csv'
 
+LM_pos_dict = f'modifiers_dictionaries/LMpositive.csv'
+LM_neg_dict = f'modifiers_dictionaries/LMnegative.csv'
 
 # =====================       YOUR OUTPUT FILES          =================== #
 
@@ -64,10 +66,20 @@ logger = logging
 
 def read_dictinonaries():
     """
-    Read in the list of dictionaries
-    positive/negative dictionary consists of bigrams/unigrams
+    Read in the various dictionaries
+    ________________________________
+
+    Note:
+
+    positive/negative performance dictionary consists of bigrams/unigrams
     the modifier dictionaires consist of unigrams only
+    Loughran & McDonald Dictionary consist of unigrams only
+
     """
+
+
+    # Read the positive/negative performance dictionaries
+
     with open(positive, "r") as posfile:
         records = csv.reader(posfile)
         for row in records:
@@ -94,6 +106,9 @@ def read_dictinonaries():
                 w2 = "."
             negperfdict[w1].append(w2)
 
+
+    # Read the modifier dictionaries
+
     with open(bad, "r") as badf:
         records1 = csv.reader(badf)
         for row in records1:
@@ -118,27 +133,29 @@ def read_dictinonaries():
             negator1 = row[0].lower()
             negatorset.add(negator1)
 
-    with open("modifiers_dictionaries/LMpositive.csv", "r") as posfile:
+
+    # Read the Loughran and Mcdonald dictionary
+
+    with open(LM_pos_dict, "r") as posfile:
         poswords = csv.reader(posfile)
         for row in poswords:
             singleposperword = row[0].lower()
             LMpositive.add(singleposperword)
 
-    with open("modifiers_dictionaries/LMnegative.csv", "r") as negfile:
+    with open(LM_neg_dict, "r") as negfile:
         negwords = csv.reader(negfile)
         for row in negwords:
             singlenegperfword = row[0].lower()
             LMnegative.add(singlenegperfword)
 
-
 # =========================================================================== #
 
 
-def check_presence(dictionary, ww, i, a, b):
+def performance_modified(dictionary, ww, i, a, b):
     """
-        Check the presence of words in a dictionary and perform corresponding operations.
+    Check the presence of words in a dictionary and perform corresponding operations.
 
-        Handles the case where performance phrase comes before amplifier / negator / good / bad
+    Handles the case where performance phrase comes before amplifier / negator / good / bad
 
     Args:
         dictionary (dict): The dictionary to check against.
@@ -149,87 +166,44 @@ def check_presence(dictionary, ww, i, a, b):
 
     Returns:
         tuple: A tuple containing:
-        i (int): the updated index,
-        polarity_count (list): a list of consisting of the total word length for each of the 8 possibilities in a given sentence
-        check_ (list): a list containing example phrases that is matched within each category
-        check_polarity (list): a list consisting of the classification (eg. amp_pos, neg_pos) of example phrases
-        result (int): overall polarity of this particular phrase (1 for positive, -1 for negative)
+            i (int): the updated index,
+            polarity_count (list): a list of consisting of the total word length for each of the 8 possibilities in a given sentence
+            check_ (list): a list containing example phrases that are matched within each category
+            check_polarity (list): a list consisting of the classification (e.g., amp_pos, neg_pos) of example phrases
+            result (int): overall polarity of this particular phrase (1 for positive, -1 for negative)
     """
 
     global polarity_cnt
     global check_
     global check_polarity
-
-    # ======================================================= #
+    if dictionary == posperdict:
+        polarity_map = {
+            tuple(amplifierset): ("amp_pos", 0, 1),
+            tuple(negatorset): ("neg_pos", 2, -1),
+            tuple(badset): ("bad_pos", 6, -1),
+            tuple(goodset): ("good_pos", 4, 1)
+        }
+    elif dictionary == negperfdict:
+        polarity_map = {
+            tuple(amplifierset): ("amp_neg", 1, -1),
+            tuple(negatorset): ("neg_neg", 3, 1),
+            tuple(badset):("bad_neg", 7, -1),
+            tuple(goodset): ("good_neg", 5, 1)
+        }
 
     # case where matched result is a bigram
-    if ww[i + b] in dictionary[ww[i].lower()]:
-        if ww[i + a + b] in amplifierset and dictionary == posperdict:
-            polarity_cnt[0] += sum([a, b])
-            check_polarity.append("amp_pos")
-            check_.append(ww[i : i + a + b + 1])
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
-        elif ww[i + a + b] in negatorset and dictionary == posperdict:
-            polarity_cnt[2] += sum([a, b])
-            check_polarity.append("neg_pos")
-            check_.append(ww[i : i + a + b + 1])
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in badset and dictionary == posperdict:
-            polarity_cnt[6] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("bad_pos")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in goodset and dictionary == posperdict:
-            polarity_cnt[4] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("good_pos")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
-        elif ww[i + a + b] in amplifierset and dictionary == negperfdict:
-            polarity_cnt[1] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("amp_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in negatorset and dictionary == negperfdict:
-            polarity_cnt[3] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("neg_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
-        elif ww[i + a + b] in badset and dictionary == negperfdict:
-            polarity_cnt[7] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("bad_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, -1
-        elif ww[i + a + b] in goodset and dictionary == negperfdict:
-            polarity_cnt[5] += sum([a, b])
-            check_.append(ww[i : i + a + b + 1])
-            check_polarity.append("good_neg")
-            i = i + a + b
-            return i, polarity_cnt, check_, check_polarity, 1
+    if ww[i + b] in dictionary[ww[i].lower()]: # check if a performance phrase eg. "pay dividend" is found
+        for modifier, (description, index, polarity) in polarity_map.items(): # check if a modifier "eg. increase" is found in after the pe
+            if ww[i + a + b] in modifier:
+                polarity_cnt[index] += sum([a, b])
+                check_polarity.append(description)
+                check_.append(ww[i: i + a + b + 1])
+                i += a + b
+                return i, polarity_cnt, check_, check_polarity, polarity
 
         # ================================================== #
 
     elif "." in dictionary[ww[i].lower()]:
-        if dictionary == posperdict:
-            polarity_map = {
-                tuple(amplifierset): ("amp_pos", 0, 1),
-                tuple(negatorset): ("neg_pos", 2, -1),
-                tuple(badset): ("bad_pos", 6, -1),
-                tuple(goodset): ("good_pos", 4, 1)
-            }
-        elif dictionary == negperfdict:
-            polarity_map = {
-                tuple(amplifierset): ("amp_neg", 1, -1),
-                tuple(negatorset): ("neg_neg", 3, 1),
-                tuple(badset):("bad_neg", 7, -1),
-                tuple(goodset): ("good_neg", 5, 1)
-            }
         for set_, (description, index, polarity) in polarity_map.items():
             if ww[i + b] in set_:
                 polarity_cnt[index] += b
@@ -238,11 +212,9 @@ def check_presence(dictionary, ww, i, a, b):
                 i += b
                 return i, polarity_cnt, check_, check_polarity, polarity
 
-
-
 # =========================================================================== #
 
-def check_existence(dictionary, temp, ww, i, a, b):
+def modify_performance(dictionary, temp, ww, i, a, b):
 
     """
         Check the presence of words in a dictionary and perform corresponding operations.
@@ -478,7 +450,7 @@ def searchwords():
                                             ww
                                         ):
                                             temp = -1
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 negperfdict, temp, ww, i, a, b
                                             )
                                             if ans:
@@ -492,7 +464,7 @@ def searchwords():
                                                 positive_perf_phrase += 1
                                                 break
                                             
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 posperdict, temp, ww, i, a, b
                                             )
                                             if ans:
@@ -509,7 +481,7 @@ def searchwords():
                                             i
                                         ].lower() in amplifierset and i + a + b < len(ww):
                                             temp = 1
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 posperdict, temp, ww, i, a, b
                                             )
                                             if ans:
@@ -523,7 +495,7 @@ def searchwords():
                                                 positive_perf_phrase += 1
                                                 
                                                 break
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 negperfdict, temp, ww, i, a, b
                                             )                                   
                                             
@@ -541,7 +513,7 @@ def searchwords():
                                             ww
                                         ):
                                             temp = -2
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 posperdict, temp, ww, i, a, b
                                             )
                                             if ans:
@@ -555,7 +527,7 @@ def searchwords():
                                                 negative_perf_phrase += 1
                                                 break
                                             
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 negperfdict, temp, ww, i, a, b
                                             )
                                             if ans:
@@ -578,7 +550,7 @@ def searchwords():
                                         ):
 
                                             temp = 2
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 posperdict, temp, ww, i, a, b
                                             )
                                             
@@ -592,7 +564,7 @@ def searchwords():
                                                 Continue_Search = False
                                                 positive_perf_phrase += 1
                                                 break
-                                            ans = check_existence(
+                                            ans = modify_performance(
                                                 negperfdict, temp, ww, i, a, b
                                             )
                                             if ans:
@@ -613,7 +585,7 @@ def searchwords():
                                         elif negperfdict.get(
                                             ww[i].lower()
                                         ) and i + a + b < len(ww):
-                                            ans = check_presence(negperfdict, ww, i, a, b)
+                                            ans = performance_modified(negperfdict, ww, i, a, b)
                                             if ans:
                                                 (
                                                     i,
@@ -633,7 +605,7 @@ def searchwords():
                                         elif posperdict.get(
                                             ww[i].lower()
                                         ) and i + a + b < len(ww):
-                                            ans = check_presence(posperdict, ww, i, a, b)
+                                            ans = performance_modified(posperdict, ww, i, a, b)
                                             if ans:
                                                 (
                                                     i,
