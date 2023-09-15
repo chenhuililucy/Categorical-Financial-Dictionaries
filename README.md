@@ -56,7 +56,7 @@ example_input/20-1996mda.txt
 example_input/20-1996mda.txt
 ```
 
-After the script finishes running, you should find the files "words.csv" that includes example phrases that are matched, as well as "{topic}-per-sentence-metrics.csv" which produces a word count of the vocabulary within each category. Notice that the csv is at a sentence level, further processing will be needed to convert it into a document by document level. 
+After the script finishes running, you should find the files "words.csv" that includes example phrases that are matched, as well as "{topic}-per-sentence-metrics.csv" which produces a word count of the vocabulary within each category. Notice that the csv is at a sentence level, further processing will be needed to convert it into a document by document level. A further csv called "words.csv" will be created, showing you some example phrases that are identified from the search.
 
 A small function to convert the metrics to document level is included in search.py named as finalcount(), you may need to modify this to satisfy your own needs. 
 
