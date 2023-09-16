@@ -9,10 +9,17 @@ from nltk.tokenize import word_tokenize
 import logging
 import nltk
 nltk.download('punkt')
+import threading
+import argparse
 
+# Optional threading as code is embarrasingly parallel across categories
+parser = argparse.ArgumentParser(description='Description of your program')
+parser.add_argument('--t', help='Threading Support')
+args = parser.parse_args()
 logger = logging
 
-# ======================     CATEGORY    ================================ #
+
+# ======================     RUN PER CATEGORY    ================================ #
 # Please change this according to the category you are tracking
 # Available categories are:
 
@@ -25,44 +32,40 @@ logger = logging
 # payout
 # revenue_growth
 
-topic = "investing"
+if not args.t:
+    run_parallel = False
+    topic = "investing"
+# ======================   OPTIONAL Multithreading    ================================ #
+else:
+    run_parallel = True
+    topic = ["bottom_line", "direct", "efficiency", "financing", "investing", "operations", "payout", "revenue_growth"]
 
 # =====================       YOUR INPUT FILES          =================== #
 
-# The corpus is the main folder that contains all your text files
-corpus = "example_input/*.txt"
+def define_files(topic):
+    # The corpus is the main folder that contains all your text files
 
-negator = "modifiers_dictionaries/negatorfinal.csv"
-amplifier = "modifiers_dictionaries/amplifiedfinal.csv"
-bad = "modifiers_dictionaries/bad.csv"
-good = "modifiers_dictionaries/good.csv"
+    corpus = "example_input/*.txt"
 
-negative = f'categorical_dictionaries/{topic}-neg.csv'
-positive = f'categorical_dictionaries/{topic}-pos.csv'
+    negator = "modifiers_dictionaries/negatorfinal.csv"
+    amplifier = "modifiers_dictionaries/amplifiedfinal.csv"
+    bad = "modifiers_dictionaries/bad.csv"
+    good = "modifiers_dictionaries/good.csv"
 
-LM_pos_dict = f'modifiers_dictionaries/LMpositive.csv'
-LM_neg_dict = f'modifiers_dictionaries/LMnegative.csv'
+    negative = f'categorical_dictionaries/{topic}-neg.csv'
+    positive = f'categorical_dictionaries/{topic}-pos.csv'
+
+    LM_pos_dict = f'modifiers_dictionaries/LMpositive.csv'
+    LM_neg_dict = f'modifiers_dictionaries/LMnegative.csv'
 
 # =====================       YOUR OUTPUT FILES          =================== #
 
-# Define the name of your output csv
-csv1 = f'{topic}-per-sentence-metrics.csv'
-csv2 = f'{topic}-overall-metrics.csv'
-
+    # Define the name of your output csv
+    csv1 = f'{topic}-per-sentence-metrics.csv'
+    csv2 = f'{topic}-overall-metrics.csv'
+    return corpus, negator, amplifier, bad, good, negative, positive, LM_pos_dict, LM_neg_dict, csv1, csv2
 
 # ==================       LOAD DICTIONARY      ============================ #
-
-# performance dictionaries
-posperdict = defaultdict(list)
-negperfdict = defaultdict(list)
-amplifierset = set()
-negatorset = set()
-badset = set()
-goodset = set()
-# LM dictionaries
-LMpositive = set()
-LMnegative = set()
-
 
 def read_modifiers(dict_file, target):
     """
@@ -96,7 +99,7 @@ def read_performance(dict_file, target):
     return target
 
 
-def read_dictinonaries():
+def read_dictinonaries(corpus, negator, amplifier, bad, good, negative, positive, LM_pos_dict, LM_neg_dict, csv1, csv2):
     """
     Read in the various dictionaries
     ________________________________
@@ -108,7 +111,18 @@ def read_dictinonaries():
     3. Loughran & McDonald Dictionary consist of unigrams only
 
     """
-    global posperdict, negperfdict, badset, goodset, amplifierset, negatorset, LMpositive, LMnegative
+    # global posperdict, negperfdict, badset, goodset, amplifierset, negatorset, LMpositive, LMnegative
+
+    # performance dictionaries
+    posperdict = defaultdict(list)
+    negperfdict = defaultdict(list)
+    amplifierset = set()
+    negatorset = set()
+    badset = set()
+    goodset = set()
+    # LM dictionaries
+    LMpositive = set()
+    LMnegative = set()
 
     # Read the positive/negative performance dictionaries
     posperdict = read_performance(positive, posperdict)
@@ -133,10 +147,12 @@ def read_dictinonaries():
             singlenegperfword = row[0].lower()
             LMnegative.add(singlenegperfword)
 
+    return posperdict, negperfdict, badset, goodset, amplifierset, negatorset, LMpositive, LMnegative
 # =========================================================================== #
 
 
-def performance_modified(dictionary, ww, i, a, b):
+def performance_modified(dictionary, ww, i, a, b, posperdict, negperfdict, 
+                         amplifierset, negatorset, badset, goodset):
     """
     Check the presence of words in a dictionary and perform corresponding operations.
 
@@ -202,7 +218,7 @@ def performance_modified(dictionary, ww, i, a, b):
 
 # =========================================================================== #
 
-def modify_performance(dictionary, temp, ww, i, a, b):
+def modify_performance(dictionary, temp, ww, i, a, b, posperdict, negperfdict):
 
     """
         Check the presence of words in a dictionary and perform corresponding operations.
@@ -269,16 +285,22 @@ def modify_performance(dictionary, temp, ww, i, a, b):
                 return i, polarity_cnt, check_, check_polarity
 
 
-def searchwords():
+def searchwords(topic):
     """
     Searches for specific tokens in the text
+
+    Args:
+    _____
+        topic: One of "bottom_line", "direct", "efficiency", "financing", "investing", "operations", "payout", "revenue_growth"
     """
 
     global polarity_cnt
     global check_
     global check_polarity
 
-    read_dictinonaries()
+
+    corpus, negator, amplifier, bad, good, negative, positive, LM_pos_dict, LM_neg_dict, csv1, csv2 = define_files(topic)
+    posperdict, negperfdict, badset, goodset, amplifierset, negatorset, LMpositive, LMnegative = read_dictinonaries(corpus, negator, amplifier, bad, good, negative, positive, LM_pos_dict, LM_neg_dict, csv1, csv2 )
 
     sentlog_outputfields = [
         "filename", "sentnolist", "amp_pos", "amp_neg", "neg_pos", "neg_neg",
@@ -325,7 +347,7 @@ def searchwords():
     for files in glob.glob(corpus):
         logger.info(files)
         with open(files) as f:
-            print(files)
+            print(f'{files} -- {topic}')
             try:
                 content = f.read()
                 filenum = filenum + 1
@@ -376,13 +398,13 @@ def searchwords():
                                         # add to the positive/negative dictionary
                                         if ww[i].lower() in negatorset and i + a + b < len(ww):
                                             temp = -1 # for negator
-                                            ans = modify_performance(negperfdict, temp, ww, i, a, b)
+                                            ans = modify_performance(negperfdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
                                                 positive_perf_phrase += 1
                                                 break
-                                            ans = modify_performance(posperdict, temp, ww, i, a, b)
+                                            ans = modify_performance(posperdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
@@ -390,13 +412,13 @@ def searchwords():
                                                 break
                                         elif ww[i].lower() in amplifierset and i + a + b < len(ww):
                                             temp = 1 # for amplifier
-                                            ans = modify_performance(posperdict, temp, ww, i, a, b)
+                                            ans = modify_performance(posperdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
                                                 positive_perf_phrase += 1
                                                 break
-                                            ans = modify_performance(negperfdict, temp, ww, i, a, b)                                   
+                                            ans = modify_performance(negperfdict, temp, ww, i, a, b, posperdict, negperfdict)                                   
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
@@ -404,13 +426,13 @@ def searchwords():
                                                 break
                                         elif ww[i].lower() in badset and i + a + b < len(ww):
                                             temp = -2 # bad
-                                            ans = modify_performance(posperdict, temp, ww, i, a, b)
+                                            ans = modify_performance(posperdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
                                                 negative_perf_phrase += 1
                                                 break
-                                            ans = modify_performance(negperfdict, temp, ww, i, a, b)
+                                            ans = modify_performance(negperfdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
@@ -421,13 +443,13 @@ def searchwords():
                                                 record_bad = False
                                         elif ww[i].lower() in goodset and i + a + b < len(ww):
                                             temp = 2 # good
-                                            ans = modify_performance(posperdict, temp, ww, i, a, b)
+                                            ans = modify_performance(posperdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
                                                 positive_perf_phrase += 1
                                                 break
-                                            ans = modify_performance(negperfdict, temp, ww, i, a, b)
+                                            ans = modify_performance(negperfdict, temp, ww, i, a, b, posperdict, negperfdict)
                                             if ans:
                                                 i, polarity_cnt, check_, check_polarity = ans
                                                 Continue_Search = False
@@ -437,7 +459,8 @@ def searchwords():
                                                 v_good += 1
                                                 record_good = False
                                         elif negperfdict.get(ww[i].lower()) and i + a + b < len(ww):
-                                            ans = performance_modified(negperfdict, ww, i, a, b)
+                                            ans = performance_modified(negperfdict, ww, i, a, b, posperdict, negperfdict, 
+                         amplifierset, negatorset, badset, goodset)
                                             if ans:
                                                 (i,polarity_cnt,check_, check_polarity,perf) = ans
                                                 if perf == 1:
@@ -447,7 +470,8 @@ def searchwords():
                                                 Continue_Search = False
                                                 break
                                         elif posperdict.get(ww[i].lower()) and i + a + b < len(ww):
-                                            ans = performance_modified(posperdict, ww, i, a, b)
+                                            ans = performance_modified(posperdict, ww, i, a, b, posperdict, negperfdict, 
+                         amplifierset, negatorset, badset, goodset)
                                             if ans:
                                                 (i,polarity_cnt,check_, check_polarity,perf) = ans
                                                 if perf == 1:
@@ -523,12 +547,28 @@ def searchwords():
     for row in p:
         wr.writerow(row)
 
-    with open("words.csv", "w") as f:
+    with open(f"words-{topic}.csv", "w") as f:
         writer = csv.writer(f)
         writer.writerows(zip(check_, check_polarity))
 
+# Create threads
 
-searchwords()
+if not run_parallel:
+    searchwords(topic)
+else:
+    threads = []
+    for idx in range(len(topic)):
+        thread = threading.Thread(target=searchwords, args = (topic[idx], ))
+        threads.append(thread)
+
+    # Start threads
+    for thread in threads:
+        thread.start()
+
+    # Wait for all threads to finish
+    for thread in threads:
+        thread.join()
+
 
 def finalcount():
     a = 0
