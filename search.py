@@ -45,7 +45,7 @@ else:
 def define_files(topic):
     # The corpus is the main folder that contains all your text files
 
-    corpus = "example_input/*.txt"
+    corpus = "newdic/*.txt"
 
     negator = "modifiers_dictionaries/negatorfinal.csv"
     amplifier = "modifiers_dictionaries/amplifiedfinal.csv"
@@ -551,26 +551,10 @@ def searchwords(topic):
         writer = csv.writer(f)
         writer.writerows(zip(check_, check_polarity))
 
-# Create threads
-
-if not run_parallel:
-    searchwords(topic)
-else:
-    threads = []
-    for idx in range(len(topic)):
-        thread = threading.Thread(target=searchwords, args = (topic[idx], ))
-        threads.append(thread)
-
-    # Start threads
-    for thread in threads:
-        thread.start()
-
-    # Wait for all threads to finish
-    for thread in threads:
-        thread.join()
+    finalcount(csv1, csv2)
 
 
-def finalcount():
+def finalcount(csv1, csv2):
     a = 0
     variables = [[] for i in range(22)]
     f_out2 = open(csv2, "w")
@@ -625,7 +609,7 @@ def finalcount():
                 if row[idex].isdigit():
                     var[idex] += int(row[idex])
 
-            var[16] += 1 # add one to the 
+            var[16] += 1
 
     p = zip(*variables)
     wr2.writerow(
@@ -656,5 +640,23 @@ def finalcount():
     for row in p:
         wr2.writerow(row)
 
+# -------------------------------------------- #
 
-# finalcount()
+# Driver code
+
+if not run_parallel:
+    searchwords(topic)
+else:
+    threads = []
+    for idx in range(len(topic)):
+        thread = threading.Thread(target=searchwords, args = (topic[idx], ))
+        threads.append(thread)
+
+    # Start threads
+    for thread in threads:
+        thread.start()
+
+    # Wait for all threads to finish
+    for thread in threads:
+        thread.join()
+
