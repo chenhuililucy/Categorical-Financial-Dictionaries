@@ -45,7 +45,7 @@ else:
 def define_files(topic):
     # The corpus is the main folder that contains all your text files
 
-    corpus = "newdic/*.txt"
+    corpus = "mda/*.txt"
 
     negator = "modifiers_dictionaries/negatorfinal.csv"
     amplifier = "modifiers_dictionaries/amplifiedfinal.csv"
@@ -554,6 +554,43 @@ def searchwords(topic):
     finalcount(csv1, csv2)
 
 
+def extract_cik_year_1(file_name):
+    """
+    Helper method to match cik and year in the form 1026348-2001mda.txt
+    """
+    pattern = r'(\d+)-(\d{4})mda\.txt'
+
+    # Use re.search to find the first match of the pattern in the file name
+    match = re.search(pattern, file_name)
+
+    if match:
+        # Extract CIK and year from the matched groups
+        cik = match.group(1)
+        year = match.group(2)
+        return cik, year
+    else:
+        # If no match is found, return None for both values
+        return None, None
+
+def extract_cik_year_2(file_name):
+    """
+    Helper method to match cik and year in the form 0000012208-19mda.txt
+    """
+
+    year = "20" + file_name[0][file_name[0].find("-") + 1 : file_name[0].find("-") + 3]
+    st = ""
+    for e in file_name:
+        if e.isalpha() or e == "/":
+            continue
+        elif e != "-":
+            st += e
+        elif e == "-":
+            break
+    cik = st
+    regex = "^0+(?!$)"
+    cik = re.sub(regex, "", cik)
+    return year, cik
+
 def finalcount(csv1, csv2):
     a = 0
     variables = [[] for i in range(22)]
@@ -569,31 +606,13 @@ def finalcount(csv1, csv2):
                 "none" not in row[0]
             ):  # matches a component in directory name, please change accordingly
                 # logger.info(row[0])
-                everyfilename = row[0]
-
-                # ========= TODO : please change the below to match the year ========= #
-                year = "20" + row[0][row[0].find("-") + 1 : row[0].find("-") + 3]
+                file_name = row[0]
+                cik, year = extract_cik_year_1(file_name)
+                if not cik and not year:
+                    cik, year = extract_cik_year_2(file_name)
+                variables[0].append(file_name)
                 variables[1].append(year)
-                st = ""
-                for e in row[0]:
-                    if e.isalpha() or e == "/":
-                        continue
-                    elif e != "-":
-                        st += e
-                    elif e == "-":
-                        break
-                # ===================================================================== #
-
-
-                # ============ TODO : please change the below to match the cik ============== #
-                # please change the below to match the cik
-                cik = st
-                regex = "^0+(?!$)"
-                cik = re.sub(regex, "", cik)
                 variables[2].append(cik)
-                # ===================================================================== #
-
-                variables[0].append(everyfilename)
                 a = a + 1
 
                 if (
