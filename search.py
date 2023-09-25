@@ -266,23 +266,22 @@ def modify_performance(dictionary, temp, ww, i, a, b, posperdict, negperfdict):
             2 : (5, "good_neg")
         }
 
-    if ww[i].lower() in dictionary:
-        if dictionary.get(ww[i + b]):
-            if ww[i + a + b] in dictionary[ww[i + b]]:
-                index, description = polarity_map[temp]
-                polarity_cnt[index] += sum([a, b])
-                check_polarity.append(description)
-                check_.append(ww[i : i + a + b + 1])
-                i = i + a + b
-                return i, polarity_cnt, check_, check_polarity
+    if dictionary.get(ww[i + b]):
+        if ww[i + a + b] in dictionary[ww[i + b]]:
+            index, description = polarity_map[temp]
+            polarity_cnt[index] += sum([a, b])
+            check_polarity.append(description)
+            check_.append(ww[i : i + a + b + 1])
+            i = i + a + b
+            return i, polarity_cnt, check_, check_polarity
 
-            elif "." in dictionary[ww[i + b]]:
-                index, description = polarity_map[temp]
-                polarity_cnt[index] += b
-                check_polarity.append(description)
-                check_.append(ww[i : i + b + 1])
-                i = i + b
-                return i, polarity_cnt, check_, check_polarity
+        elif "." in dictionary[ww[i + b]]:
+            index, description = polarity_map[temp]
+            polarity_cnt[index] += b
+            check_polarity.append(description)
+            check_.append(ww[i : i + b + 1])
+            i = i + b
+            return i, polarity_cnt, check_, check_polarity
 
 
 def searchwords(topic):
